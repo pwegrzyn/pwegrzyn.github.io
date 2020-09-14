@@ -3,6 +3,8 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "pwegrzyn | Software Engineer"
 theme = "KeepIt"
+paginate = 12
+canonifyURLs = true
 publishDir = "public"
 enableEmoji = true
 enableRobotsTXT = true
@@ -28,14 +30,19 @@ googleAnalytics = ""
     weight = 1
 
   [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+
+  [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 2
+    weight = 4
 
 [params]
     since = 2020
     author = "Patryk Węgrzyn"               # Author's name
-    subtitle = true       # Subtitle
+    subtitle = "Patryk Węgrzyn (@pwegrzyn) \n lol"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
     avatar = "/images/profile.png" #comment it to use gravatar
