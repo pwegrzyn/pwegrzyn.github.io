@@ -1,3 +1,81 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://pwegrzyn.com/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "pwegrzyn | Software Engineer"
+theme = "KeepIt"
+publishDir = "public"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[params]
+    since = 2020
+    author = "Patryk Węgrzyn"               # Author's name
+    subtitle = true       # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+    avatar = "/images/profile.png" #comment it to use gravatar
+    socialShare = true
+    description = "💻" # site description
+    keywords = "pwegrzyn" # site keywords
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[params.social]
+    GitHub = "pwegrzyn"
+    Linkedin = "patryk-wegrzyn"
+    Twitter = "_pwegrzyn"
+    Email   = "wegpat@gmail.com"
+    Youtubechannel = "UC7-m6E8aS5q2ozWOYaifODQ"
+
+[params.share]
+Twitter = true
+Facebook = true
+Linkedin = true
+
+# Used only for Seo schema
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name = "pwegrzyn"
+
+  [params.publisher]
+    name = "pwegrzyn"
+
+    [params.publisher.logo]
+      url = "/images/profile.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "/images/profile.png"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "/images/profile.png"
+    width = 127
+    height = 40
