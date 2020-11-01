@@ -5,10 +5,10 @@
         <span itemprop="copyrightYear">{{.}} – {{ now.Year }}</span>
         {{ end }}
          {{ if .Site.Params.author }}
-            <span class="author" itemprop="copyrightHolder"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author  }}</a> | </span>
+            <span class="author" itemprop="copyrightHolder"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author  }}</a></span>
 
          {{ end }}
-		  <span>Hosted on GitHub and deployed on Netlify</span>
+		  <span></span>
     </div>
 </footer>
 {{ partial "js.html" . }}
