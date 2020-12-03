@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2020-10-07
-linktitle: Few words about the geometry of loss functions in deep neural networks
+linktitle: Few words about the geometry of loss functions in deep neural nets
 type:
 - post 
 - posts
-title: Few words about the intrinsic geometry of loss functions in deep neural networks
+title: Few words about the geometry of loss functions in deep neural nets
 weight: 1
 categories:
 - ml
