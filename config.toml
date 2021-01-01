@@ -1,7 +1,7 @@
 baseURL = "https://pwegrzyn.com/"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "pwegrzyn | Software Engineer"
+title = "Patryk Węgrzyn | Software Engineer"
 theme = "KeepIt"
 paginate = 12
 canonifyURLs = true
