@@ -39,7 +39,7 @@ follow the instructions on their page, since they are very informative and up-to
 
 Finally, after following all the steps above, you're ready to start writing OpenGL code.
 
-## OpenGL API concepts
+## OpenGL API concepts in a nutshell
 
 OpenGL's API, like many other graphics rendering APIs, follows a clear structure. In a typical rendering application you will have two major subsets of components - one for handling data and the other for handling the computations done on that data.
 The main concept within the former group are *Vertex Buffer*. Think of those basically as smart data-arrays that automatically handle the process of pushing data into the GPU. VertexBuffer by itself are useless though, we first need a way to tell OpenGL
