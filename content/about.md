@@ -6,9 +6,9 @@ aliases: ["about","pwegrzyn","author","contact"]
 
 Hi 👋, 
 
-I'm Patryk, a software engineer from Cracow, Poland. Currently, I'm finishing my Master's in CS at AGH-UST.
-I'm also part-time employed at Akamai Technologies, Inc. where I work on data distribution systems. 
-In spare time I enjoy books, movies, video games and physics.
+I'm Patrick, a software engineer from Cracow, Poland. Currently I'm finishing my Master's degree in Computer Science at AGH-UST (specializing in machine learning).
+Previously I worked at Akamai Technologies, Inc. where I contributed improvements to data distribution systems underpinning Akamai's global CDN.
+My interest are physics, math, machine learning, distributed systems (from Cloud to Blockchains), books and video games (playing and casually developing).
 
 ### CV
 
