@@ -6,7 +6,7 @@ aliases: ["about","pwegrzyn","author","contact"]
 
 Hi 👋, 
 
-I'm Patrick, a software engineer from Cracow, Poland. Currently I'm finishing my Master's degree in Computer Science at AGH-UST.
+I'm Patryk, a software engineer from Krakow, Poland. Currently I'm finishing my Master's degree in Computer Science at AGH-UST.
 Previously I worked at Akamai Technologies, Inc. where I contributed improvements to data distribution systems underpinning Akamai's global CDN.
 My interests are physics, math, distributed systems (from cloud to web3), machine learning and books.
 
