@@ -25,8 +25,8 @@ However, each has it's drawback: immutability requires lots of copying or tricky
 
 In my opinion, the most practical (and beautiful) aspect of FP, comes from the [Curry–Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence). Loosely speaking, this theorem states that programs are equal to mathematical proofs. This is especially prominent when your consider the most basic form of functional programming - [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) (LC). In this [model of computation](https://en.wikipedia.org/wiki/Model_of_computation) you are only allowed to use 1 primitive - an abstract function object. But can you even program using ONLY functions? Yup, check [this](https://gist.github.com/pwegrzyn/31c684a7ef32a5cabb3459a9375baaeb) out.
 
-Now consider a slightly more advanced version of LC with some nice syntactic sugar - Haskell.
-Let's say I want to prove this theorem:
+Now consider a slightly more advanced version of Lambda calculus, with some nice syntactic sugar - Haskell.
+Let's say I want to prove this mathematical theorem:
 ```
 (A -> B) -> (B -> C) -> A -> C
 ```
@@ -40,7 +40,7 @@ impl_comp = \(f::a -> b) -> \(g::b -> c) -> \(h::a) -> g (f h)
 ```
 And, lo and behold, we have a proof for a mathematical theorem in the form of a Haskell program. Pretty cool, right? This is exactly Curry–Howard correspondence in action.
 
-So why do I think this is the main selling point of FP? Because it clearly shows that functional programming has an inherent and close connection to logic and math in general. This in turn means that FP is perfect for use cases where the domain and business logic is complex and you need an almost mathematically-strict way of proving the correctness of your solutions.
+So why do I think this is the main selling point of FP? Because it clearly shows that functional programming has an inherent and close connection to logic and math in general. This in turn means that FP is perfect for use cases where the domain and business logic is complex enough to justify using more advanced abstractions and generalizations, and where you also need an almost mathematically-strict way of proving the correctness of your solutions.
 
 
 ## Imperative/Object-oriented programming
@@ -49,4 +49,4 @@ For most, imperative (and OO) programming is a more natural way of writing code,
 
 On another note, imperative programming is much better suited as a base for considerations in the theory of computability, computational complexity and advanced algorithm development, that's because a [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine), which is a mathematical model for all of them, is a sequential and imperative model by it's nature.
 
-Finally, a sequential and imperative model of computation is much easier to implement in hardware, so when working with low-level code you are forced to use this approach to programming.
+Finally, a sequential and imperative model of computation is much easier to implement in hardware, so when working with low-level code you are forced to use this approach.
