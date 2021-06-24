@@ -27,7 +27,7 @@ In my opinion, the most practical (and beautiful) aspect of FP, comes from the [
 
 Now consider a slightly more advanced version of Lambda calculus, with some nice syntactic sugar - Haskell.
 Let's say I want to prove this mathematical theorem:
-```
+```haskell
 (A -> B) -> (B -> C) -> A -> C
 ```
 Looks easy, I know that A implies B and that B implies C, therefore A should imply C. We can translate this logical preposition to Haskell by defining a function which has a matching type signature:
