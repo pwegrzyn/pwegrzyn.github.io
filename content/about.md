@@ -11,3 +11,7 @@ I'm Patryk, a software engineer in Krakow, Poland. Currently, I'm finishing my M
 ### CV
 
 My CV is available on request, but you can also check out my LinkedIn: [linkedin.com/in/patryk-wegrzyn/](https://www.linkedin.com/in/patryk-wegrzyn/)
+
+### Profile Pic
+
+[Einstein's Cross](https://en.wikipedia.org/wiki/Einstein_Cross) - arguably the coolest thing in the universe (right after black holes, obviously).
