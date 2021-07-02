@@ -14,4 +14,4 @@ My CV is available on request, but you can also check out my LinkedIn: [linkedin
 
 ### Profile Pic
 
-[Einstein's Cross](https://en.wikipedia.org/wiki/Einstein_Cross) - arguably the coolest thing in the universe (right after black holes, obviously).
+[Einstein Cross](https://en.wikipedia.org/wiki/Einstein_Cross) - arguably the coolest thing in the observable universe.
