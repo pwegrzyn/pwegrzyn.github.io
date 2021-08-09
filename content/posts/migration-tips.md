@@ -6,7 +6,7 @@ linktitle: Software migration tips
 type:
 - post 
 - posts
-title: Software migration tips (Python3 edition)
+title: Software migration tips (Python 3 edition)
 weight: 1
 categories:
 - python

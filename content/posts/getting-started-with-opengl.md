@@ -6,7 +6,7 @@ linktitle: Getting Started with OpenGL in 2020
 type:
 - post 
 - posts
-title: Getting Started with OpenGL on Windows in 2020
+title: Getting Started with OpenGL in 2020
 weight: 1
 categories:
 - cpp
@@ -19,7 +19,7 @@ for example [PyGame](https://www.pygame.org/news), for Java - [FXGL](https://git
 more serious stuff, you could just go for [Unity](https://unity.com/). However, soon you'll notice that get more control over the graphics rendering pipeline (maybe you want to
 squeeze every bit of performance of your game or you just wish to implement a cool graphics effect) there's currently still not better choice than picking good ol' C++ along with a low-level graphics library.
 
-## Current GFX landscape
+## Current RT rendering landscape
 
 For a long time, rendering libraries were usually closely tied to the hardware that they were originally desinged to be run on. For example, if you wish to develop games on Windows you should definitely choose DirectX (or more
 specifically - Direct3D). If you want to ship a game on Macs - go for Metal. Lately, a truly cross-platform API has been steadily been gaining more and more traction - Vulkan by Khronos. It's a really powerful, low-levelk framework
@@ -50,7 +50,7 @@ what is the structure of the data we put into the buffers. That's where *Vertex 
 to bind attributes to buffers. In order to make the process more structured and manageable, OpenGL comes with what's known as *Vertex Arrays*. Technically, you could skip them entirely, and just a single, global, implicit array and do all the bindings why yourself, but
 this quickly could become cumbersome, so the general advice is to use Vertex Arrays. The last major element of the data-focus-components are *Vertex Index Buffers*. They are used to re-use parts of the data you specified inside vertex buffers - specifically, instead of creating a huuge vertex buffer with the data for all the vertices of a complex 3D model you can just create a much simpler vertex buffer with only the main vertices and then later re-use the data associated with them via indices stored in index buffers.
 
-## OpenGL processing bird's-eye view
+## OpenGL processing birds-eye view
 
 That's the data-part of OpenGL, now let's swtich context a little bit and cover the other part of the pipeline - computations. You have all the data you want transfered beautifully to the GPU via vertex buffers, but how do you actually apply tranformations to the data (projections, texturing, lightning, etc.)? That's where *shaders* come into play. A *shader* is basically a separate sub-program within you application that is compiled and the run directly on the GPU. The two main categories of shaders we should be concerned for now are *vertex shaders* and *fragment shaders*. A typical rendering pipeline initiated by a draw call looks like this: the vertex shader is called for all vertices within you vertex buffer, and then the fragment shaders is called for all pixels that need to be displayed. Shaders are written in a DSL called OpenSL - it's a bit similar to C, but has some major differences that allow it to fit nicely within the aforementioned GPU processing pipeline. The are two major ways of passing data into shaders - uniforms and data specified within vertex buffers. The 
 latter has already been covered, and the former - uniforms - are quite simple in nature, think of them as global variables avaiable within the context of both the CPU and GPU.
