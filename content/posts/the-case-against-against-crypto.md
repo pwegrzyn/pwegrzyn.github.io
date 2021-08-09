@@ -1,7 +1,7 @@
 ---
 authors:
 - name: "Patryk Węgrzyn"
-date: 2021-08-10
+date: 2021-08-08
 linktitle: The case against against crypto
 type:
 - post 
