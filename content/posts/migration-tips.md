@@ -57,7 +57,7 @@ Be ready to come up with clever ideas
 --------
 The migration might introduce problems which will be highly non-trivial and will require lots of creativity to solve. From experience I can say that if you have some sort of object serialization in your project (using *pickle* or any other module) in Python 2 and you want to port it to Python 3 (while preserving data compatiblity) then you are pretty much screwed, and getting out of this situation will require lots of creative thinking ;-).
 
-Conside upgrading your dependencies
+Consider upgrading your dependencies
 --------
 A migration might be a good time to finnaly update some of you super-old dependencies. This will be a security and maintainability win for all. This decision might as well be forced on you, since the old version of your software may have dependencies to specific version of libraries which are no longer maintained or are not compatible with your new version.
 
