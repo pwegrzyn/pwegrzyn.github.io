@@ -1,7 +1,7 @@
 ---
 authors:
 - name: "Patryk Węgrzyn"
-date: 2021-08-12
+date: 2021-08-10
 linktitle: Mode connectivity
 type:
 - post 

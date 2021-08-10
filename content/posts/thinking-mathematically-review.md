@@ -1,7 +1,7 @@
 ---
 authors:
 - name: "Patryk Węgrzyn"
-date: 2021-08-09
+date: 2021-08-08
 linktitle: Thinking mathematically review
 type:
 - post 
