@@ -6,13 +6,13 @@ linktitle: Functional vs imperative
 type:
 - post 
 - posts
-title: Why every developer should know both imperative and functional programming
+title: Why every developer should know both structural and functional programming
 weight: 1
 categories:
 - software
 ---
 
-The apparent feud between functional and imperative (or OOP) programmers have been with us since the very inception of this industry.
+The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry.
 Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses.
 One is not inherently better than the other, each has characteristics making it better suited for some tasks and less optimal in others.
 
@@ -40,13 +40,15 @@ impl_comp = \(f::a -> b) -> \(g::b -> c) -> \(h::a) -> g (f h)
 ```
 And, lo and behold, we have a proof for a mathematical theorem in the form of a Haskell program. Pretty cool, right? This is exactly Curry–Howard correspondence in action.
 
-So why do I think this is the main selling point of FP? Because it clearly shows that functional programming has an inherent and close connection to logic and math in general. This in turn means that FP is perfect for use cases where the domain and business logic is complex enough to justify using more advanced abstractions and generalizations, and where you also need an almost mathematically-strict way of proving the correctness of your solutions.
+So why do I think this is the main selling point of FP? Because it clearly shows that functional programming has an inherent and close connection to logic and math in general. This in turn means that FP is perfect for use cases where the domain and business logic is complex enough to justify using more advanced abstractions and generalizations, and where you also need an almost mathematically-strict way of proving the correctness of your solutions. Compared to imperative programming, FP's lack of
+mutability leads to easier work with highly concurrent systems.
 
 
-## Imperative/Object-oriented programming
+## Imperative/Object-oriented/Structural programming
 
-For most, imperative (and OO) programming is a more natural way of writing code, and that shouldn't be surpring, thinking in terms of objects and steps then need to be undertaken to transform the state of these objects is closely related to how we view and interact with the world for most of the time. At the same time, we undergo many years of math education to develop a more strict way of reasoning, to deal with more complex concepts which require abstractions and generalizations. You don't calculate the Riemann metric tensor and curvature of spacetime when you want to throw a basketball. By analogy, I'd argue that you also shouldn't use advanced FP when writing simple CRUD or CLI applications.
+For most, imperative programming is a more natural way of writing code, and that shouldn't be surpring, thinking in terms of objects and steps then need to be undertaken to transform the state of these objects is closely related to how we view and interact with the world for most of the time. At the same time, we undergo many years of math education to develop a more strict way of reasoning, to deal with more complex concepts which require abstractions and generalizations. You don't calculate the Riemann metric tensor and curvature of spacetime when you want to throw a basketball. By analogy, I'd argue that you also shouldn't use advanced FP when writing simple CRUD or CLI applications.
 
 On another note, imperative programming is much better suited as a base for considerations in the theory of computability, computational complexity and advanced algorithm development, that's because a [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine), which is a mathematical model for all of them, is a sequential and imperative model by it's nature.
 
-Finally, a sequential and imperative model of computation is much easier to implement in hardware, so when working with low-level code you are forced to use this approach.
+Finally, a sequential and imperative model of computation is much easier to implement in hardware, so when working with low-level code you are forced to use this approach. Moreover, functional programming inherently requires more memory and processing power
+compared to imperative styles, so for embedded settings the latter is also a clear winner.
