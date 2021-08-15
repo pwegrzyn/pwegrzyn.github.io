@@ -27,6 +27,19 @@ Mode connectivity
 --------
 *Mode connectivity* refers to the observed phenomenon of different minima being connected by low loss paths. One of the first methods of finding these paths have been proposed by Garipov et al. [[5]](#5). THis is achieved by modifying the loss function to include a part maximizing a randomly sampled likelihood of a line segment connecting two minima. These can be used to find simple linear paths or more complex structures such as Bezier curves. The author's also defined an ensembling method based on this approach: we find a minimum for aboutr 80% of the computational budget, then we used a cycling cosine learning rate scheduler to move the minimum slightly along the low loss path, and we snapshot the models at certain time steps to produce the final ensemble. Following the work of Garipov, others continued to evolve the theorem of mode connectivity. Fort et al. [[6]](#6) proposed that these low loss paths are in fact parts of larger submanifolds of constant loss present in the loss landscape, suggesting that the richness of mode connectivity is much broader than first expected. Benton et al. [[7]](#7) further established that finding these manifolds is quite easy and, based on a simplex-finding algorithm, proposed a novel ensembling method which achieves SotA results. All this is to say that one should not think of the task of training deep learning models as a tedious process of finding a needle (single global minimum) in a haystack (entire parameter space), but rather as a relatively simple job of finding a *good-enough* partial minimum from a vast submanifold of low loss plateaus.
 
+Loss geometry in the context of generalization
+--------
+Many studies have showed that the geometrical structures present in loss landscapes are stongly correlated with test performance and overall generalization potential. One of the main takeaways here is that wide minima are in general better than sharp minima, and that non-convex landscapes (containing many different sharp minima) are practically impossible to train. A fanstatic and intuitive explanation to this phenomenon can be seen in a recent talk by Leo Dirac (yes, he's a relative to THE Paul Dirac!) available currently on YouTube [[8]](#8). Some other great resources on this subject are these two talks by Tom Goldstein (also available on YT) [[9]](#9) [[10]](#10).
+
+Stochastic weight averaging
+--------
+blah
+
+Bonus: depth vs width
+--------
+blah
+
+
 ## References
 <a id="1">[1]</a>
 Andrej Karpathy (2017)
@@ -62,3 +75,18 @@ https://arxiv.org/abs/1906.04724
 Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson (2021)
 *Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling.*
 https://arxiv.org/abs/2102.13042
+
+<a id="8">[8]</a>
+Leo Diract (@leopd) (2019)
+*Geometric Intuition for Training Neural Networks.*
+https://www.youtube.com/watch?v=Z_MA8CWKxFU
+
+<a id="9">[9]</a>
+Tom Goldstein (2018)
+*What do neural loss surfaces look like?*
+https://www.youtube.com/watch?v=78vq6kgsTa8
+
+<a id="10">[10]</a>
+Tom Goldstein (2020)
+*An empirical look at generalization in neural nets.*
+https://www.youtube.com/watch?v=kcVWAKf7UAg
