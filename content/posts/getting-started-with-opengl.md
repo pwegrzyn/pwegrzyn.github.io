@@ -6,7 +6,7 @@ linktitle: Getting Started with OpenGL in 2020
 type:
 - post 
 - posts
-title: Getting Started with OpenGL in 2020
+title: Getting started with OpenGL in 2020
 weight: 1
 categories:
 - cpp
@@ -19,7 +19,7 @@ for example [PyGame](https://www.pygame.org/news), for Java - [FXGL](https://git
 more serious stuff, you could just go for [Unity](https://unity.com/). However, soon you'll notice that get more control over the graphics rendering pipeline (maybe you want to
 squeeze every bit of performance of your game or you just wish to implement a cool graphics effect) there's currently still not better choice than picking good ol' C++ along with a low-level graphics library.
 
-## Current RT rendering landscape
+## Contemporary real-time rendering landscape
 
 For a long time, rendering libraries were usually closely tied to the hardware that they were originally desinged to be run on. For example, if you wish to develop games on Windows you should definitely choose DirectX (or more
 specifically - Direct3D). If you want to ship a game on Macs - go for Metal. Lately, a truly cross-platform API has been steadily been gaining more and more traction - Vulkan by Khronos. It's a really powerful, low-levelk framework
