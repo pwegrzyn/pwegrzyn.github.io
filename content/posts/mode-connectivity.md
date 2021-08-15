@@ -13,7 +13,7 @@ categories:
 - software
 ---
 
-**Deep learning's impact on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software [[1]](#1). However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. I present my key observations in this article.**
+**Deep learning's impact on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software [[1]](#1). However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. Below I present my key observations and useful resources on this matter.**
 
 Loss landscape visualization
 --------
@@ -29,15 +29,15 @@ Mode connectivity
 
 Loss geometry in the context of generalization
 --------
-Many studies have showed that the geometrical structures present in loss landscapes are stongly correlated with test performance and overall generalization potential. One of the main takeaways here is that wide minima are in general better than sharp minima, and that non-convex landscapes (containing many different sharp minima) are practically impossible to train. A fanstatic and intuitive explanation to this phenomenon can be seen in a recent talk by Leo Dirac (yes, he's a relative to THE Paul Dirac!) available currently on YouTube [[8]](#8). Some other great resources on this subject are these two talks by Tom Goldstein (also available on YT) [[9]](#9) [[10]](#10).
+Many studies have showed that the geometrical structures present in loss landscapes are stongly correlated with test performance and overall generalization potential. One of the main takeaways here is that wide minima are in general better than sharp minima, and that non-convex landscapes (containing many different sharp minima) are practically impossible to train. A fanstatic and intuitive explanation to this phenomenon can be seen in a recent talk by Leo Dirac (yes, he's a relative to THE Paul Dirac!) available currently on YouTube [[8]](#8). Some other great resources on this subject are these two talks by Tom Goldstein (also available on YT) [[9]](#9) [[10]](#10). In short, a wide minium rougly corresponds to a wide margin classifier (think of a SVM which maximizes the distance from the classification line to certain data points), which by its nature has smaller variance and better test performance. This is good news for us, since we know that deep nets' loss landscapes contain large low loss plateaus originating from neuron symmetries and mode connectivity. This, in turn, explains why deep learnig is so effective: the architecture of the model, by its nature, makes the training problem an easy task in practice, and also usually it leads to high-margin classifiers corresponding to models with smaller variance, which benefits generalization.
 
 Stochastic weight averaging
 --------
-blah
+Several independent research studies have reported that SGD tends to converge to boundaries of low loss regions, and not to the exact centers of minima [[11]](#11). Moreover, it has been seen that it converges to cycles around plateaus. This is understandable: as soon as SGD reaches the flat region, gradient vanishes and there's no more a "force" pulling the optimizer towards the center of the plateau, so instead it continues to loop around its boundary. In the same aricle, the authors proposed a method to bias SGD towards the center, because (and here's comes the brilliant observation) convergence to the center of the minimum would make the model less susceptible to perturbations in the loss landscape during test set inference. A simpler and arguably more elegant solution this this conundrum has been proposed by Izmailov et al. [[12]](#12): instead of biasing the path SGD takes, we just take snapshots of different points vanilla SGD encounters during the ending phases of training. Then we simply take the average of these weights as the final model. What this effectively does is move the convergence point from the boundaries of the low loss plateau to its center, which in turn widens the classification margin and improves generalization.
 
 Bonus: depth vs width
 --------
-blah
+*The universal approximation theorem* states that a sufficiently wide neural network is able to approximate (with an arbitrary precision) any continuous well-behaved real function. Recently, there's been significant effort in the deep learning community to come up with an analogous statement, but this time relating the *depth* of the network to its approximation capacity. And, as it turns out, the efforts bear fruit: it can be shown that a sufficiently *deep* network with bounded width can also be considered an universal approximator. This is interesting, because it suggests that depth does not only affect the level of abstraction of features, but also the linear separability of those features (as does width).
 
 
 ## References
@@ -90,3 +90,13 @@ https://www.youtube.com/watch?v=78vq6kgsTa8
 Tom Goldstein (2020)
 *An empirical look at generalization in neural nets.*
 https://www.youtube.com/watch?v=kcVWAKf7UAg
+
+<a id="11">[11]</a>
+Pratik Chaudhari, Stefano Soatto (2018)
+*Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks.*
+https://arxiv.org/abs/1710.11029
+
+<a id="12">[12]</a>
+Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, Andrew Gordon Wilson (2018)
+*Averaging Weights Leads to Wider Optima and Better Generalization.*
+https://arxiv.org/abs/1803.05407
