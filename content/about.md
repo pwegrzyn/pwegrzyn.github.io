@@ -6,7 +6,15 @@ aliases: ["about","pwegrzyn","author","contact"]
 
 Hi 👋, 
 
-I'm Patryk, a software engineer from Krakow, Poland. Currently, I'm finishing my Master's degree in Computer Science at AGH-UST; in my thesis I'm studying the geometry of loss landscapes in neural networks. During my undergrad studies I was mainly interested in distributed systems (my Bachelor's thesis being a Blockchain implementation for cryptography classes). I also used to worked as a SWE at Akamai, where I was responsbile for data propagation systems. My interests are distributed systems (theory as well as practice in form of cloud native and decentralized Web3 technologies) and machine learning (mainly optimization and biologically plausible NNs). Casually I'm also into game engine development (Unreal, O3DE, custom) and quantum computing (as it's at the intersection of two of my favourite subjects - CS and physics). I also like to read a lot, watch movies and play some video games from time to time.
+I'm Patryk, a software engineer based in Krakow, Poland. 
+
+I got my Bachelor's degree in Computer Science from AGH-UST; in the first years of my studies I was mainly interested in distributed systems and cryptography (leading to my graduation project being a PoW cryptocurrency client with visualizations and predefined attack scenarios). Later, during my Master's degree, I mostly switched to machine learning, which culminated in my thesis in which I studied the geometries of loss landscapes in deep neural nets. Also, apart from classic CS courses, I took classes in real-time rendering, quantum computing, natural language processing, cybersecurity and VPNs, just to name a few.
+
+I also used to work as a software developer at Akamai, where I was responsbile for data propagation systems.
+
+My current interests are distributed systems (backend, actors models, cloud native, decentralized Web3 technologies) and machine learning (mainly optimization and biologically plausible NNs). Casually I'm also into game engine development (Unreal, O3DE, custom) and quantum computing. 
+
+In spare time I like to read a lot, watch movies and play some video games from time to time.
 
 ### CV
 
