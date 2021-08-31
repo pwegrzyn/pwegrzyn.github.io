@@ -12,7 +12,7 @@ I got my Bachelor's degree in Computer Science from AGH-UST; in the first years 
 
 I also used to work as a software developer at Akamai, where I was responsbile for data propagation systems.
 
-My current interests are distributed systems (backend, actors models, cloud native, decentralized Web3 technologies) and machine learning (mainly optimization and biologically plausible NNs). Casually I'm also into game engine development (Unreal, O3DE, custom) and quantum computing. 
+My current interests are distributed systems (backend, actors models, cloud native, decentralized Web3 technologies) and machine learning (mainly optimization and biologically plausible NNs). Casually I'm also into game engine development (Unreal, O3DE, custom).
 
 In spare time I like to read a lot, watch movies and play some video games from time to time.
 
