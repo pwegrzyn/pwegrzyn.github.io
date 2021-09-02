@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2020-09-14
-linktitle: Software migration tips 
+linktitle: Software Migration Tips 
 type:
 - post 
 - posts
-title: Software migration tips (Python 3 edition)
+title: Software Migration Tips (Python 3 Edition)
 weight: 1
 categories:
 - python

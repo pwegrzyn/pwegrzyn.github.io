@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2021-08-15
-linktitle: Mode connectivity
+linktitle: Mode Connectivity
 type:
 - post 
 - posts
-title: Loss landscapes, mode connectivity and generalization of deep neural nets
+title: Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets
 weight: 1
 categories:
 - ml

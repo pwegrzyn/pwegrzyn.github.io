@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2021-06-24
-linktitle: Functional vs imperative
+linktitle: Functional vs Imperative
 type:
 - post 
 - posts
-title: Why every developer should know both structural and functional programming
+title: Why Every Developer Should Know Both Structural and Functional Programming
 weight: 1
 categories:
 - software

@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2021-08-10
-linktitle: My new favourite math theorem
+linktitle: My New Favourite Math Theorem
 type:
 - post 
 - posts
-title: My new favourite math theorem - Lawvere's fixed point
+title: My New Favourite Math Theorem - Lawvere's Fixed Point
 weight: 1
 categories:
 - math

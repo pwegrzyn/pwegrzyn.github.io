@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2021-08-27
-linktitle: The ETC principle
+linktitle: The ETC Principle
 type:
 - post 
 - posts
-title: The ETC principle
+title: The ETC Principle
 weight: 1
 categories:
 - software

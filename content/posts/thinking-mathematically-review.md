@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2021-08-08
-linktitle: Thinking mathematically review
+linktitle: Thinking Mathematically Review
 type:
 - post 
 - posts
-title: The single most valuable math book you probably haven't heard about
+title: The Single Most Valuable Math Book You Probably Haven't Heard About
 weight: 1
 categories:
 - math
