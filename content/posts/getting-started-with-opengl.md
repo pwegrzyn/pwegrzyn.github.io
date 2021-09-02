@@ -6,7 +6,7 @@ linktitle: Getting Started with OpenGL in 2020
 type:
 - post 
 - posts
-title: Getting started with OpenGL in 2020
+title: Getting Started with OpenGL in 2020
 weight: 1
 categories:
 - cpp
