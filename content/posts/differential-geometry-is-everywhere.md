@@ -6,7 +6,7 @@ linktitle: Differential Geometry Is Everywhere, or How I Learned To Stop Worryin
 type:
 - post 
 - posts
-title: Differential Geometry Is Everywhere, or How I Learned To Stop Worrying and Love the Manifold
+title: Differential Geometry is Everywhere! Or How I Learned To Stop Worrying and Love the Manifold
 weight: 1
 categories:
 - math
