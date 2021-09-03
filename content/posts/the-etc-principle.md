@@ -39,3 +39,5 @@ When writing each line of code, subconsciously ask yourself, if this code will b
 * extendability.
 
 The essence of **ETC** is even present in the name of our industry - **soft**ware engineering. As programmers, we should strive to be experts in producing **soft** solutions to *hard* problems :)
+
+For anyone interested in learning more about designing and implementing elastic software projects I recommend Uncle Bob's ["Clean Architecture"](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164) which focuses on the more technical side and [Domain-Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) by Eric Evans which is more about modelling.
