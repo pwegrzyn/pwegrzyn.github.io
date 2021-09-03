@@ -25,4 +25,6 @@ After remebering that my calculus classes ended with an introduction to topology
 * [Introduction to Smooth Manifolds](https://link.springer.com/book/10.1007/978-1-4419-9982-5),
 * [Introduction to Riemannian Manifolds](https://www.springer.com/gp/book/9783319917542).
 
-Currently, I'm still in book 1 but I'm already seeing that this investment is paying off. In future, I'll try to regularly post updates on some intesting topics (especially in regard to their applicability in ML).
+Currently, I'm still in book 1 but I'm already seeing that this investment is paying off (in future, I'll try to regularly post updates on some intesting topics, especially in regard to their applicability in ML).
+
+In summary, what I'm trying to say is that geometry is often not getting enough credit. For most of us, we learn about Euclidean geometry in high school and that's basically it. If you don't graduate in math or theoretical physics, than you're out of luck. But geometry is so more than that. According to some experts (specifically, descendants of Albert Einstein’s school of geometric physics) it is probably geometry (and not string theory) that will lead to theoretical unifications and, personally, I'm betting that it will also play a enormous role in the advancements of deep learnig in the coming years.
