@@ -30,7 +30,7 @@ There's quite a few popular software engineering principles (often remembered in
 
 However, despite this richness of principles, I think there's a single, most fundamental rule of software engineering, from which all other can be derived:
 
-> **ETC** - Whatever design or implementation decision you make, ensure that it makes your code **E**asier **T**o **C**hange in the future.
+### **ETC** - Whatever design or implementation decision you make, ensure that it makes your code **E**asier **T**o **C**hange in the future
 
 When writing each line of code, subconsciously ask yourself, if this code will be easy to change in a few months, whenever the answer even remotely sounds like "no", then you can probably do better. Think how you can improve:
 * readability,
