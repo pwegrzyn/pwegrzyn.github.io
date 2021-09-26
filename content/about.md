@@ -4,7 +4,8 @@ date: "2020-09-14"
 aliases: ["about","pwegrzyn","author","contact"]
 ---
 
-<img src="/images/galaxy.jpg" class="featured_image">
+<!-- <img src="/images/galaxy.jpg" class="featured_image"> -->
+![About-Image](/images/galaxy.jpg)
 
 I'm Patryk, a software engineer based in Krakow, Poland. 
 
