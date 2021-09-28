@@ -6,7 +6,7 @@ linktitle: Geometry Is Everywhere, or How I Learned To Stop Worrying and Love th
 type:
 - post 
 - posts
-title: Geometry is Everywhere! Or How I Learned To Stop Worrying and Love the Manifold
+title: "Geometry is Everywhere: or How I Learned to Stop Worrying and Love the Manifold"
 weight: 1
 categories:
 - math
