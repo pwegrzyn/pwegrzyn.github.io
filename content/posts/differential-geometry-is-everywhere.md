@@ -20,10 +20,7 @@ During my MSc degree, I took classes in machine learning, image recognition, NLP
 
 Finally, a couple of months ago, I came across Eric Weinstein's [Gauge Theory of Economics](https://theportal.wiki/wiki/Gauge_Theory_of_Economics). This was probably the tipping point for me - I decided it's time to finally dive deep into differential geometry (+ a bit of group theory). For real this time.
 
-After remebering that my calculus classes ended with an introduction to topology, I decided to start this journey with Lee's classical "trilogy":
-* [Introduction to Topological Manifolds](https://www.springer.com/gp/book/9781441979391),
-* [Introduction to Smooth Manifolds](https://link.springer.com/book/10.1007/978-1-4419-9982-5),
-* [Introduction to Riemannian Manifolds](https://www.springer.com/gp/book/9783319917542).
+After remebering that my calculus classes ended with an introduction to topology, I decided to start this journey with Lee's classical "trilogy": [Introduction to Topological Manifolds](https://www.springer.com/gp/book/9781441979391), [Introduction to Smooth Manifolds](https://link.springer.com/book/10.1007/978-1-4419-9982-5) and [Introduction to Riemannian Manifolds](https://www.springer.com/gp/book/9783319917542).
 
 Currently, I'm still in book 1 but I'm already seeing that this investment is paying off (in future, I'll try to regularly post updates on some intesting topics, especially in regard to their applicability in ML).
 
