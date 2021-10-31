@@ -13,10 +13,12 @@ categories:
 - software
 ---
 
-**In this post I'd like to share some tips in regard to migrating a fairly complex software system to a new version
+In this post I'd like to share some tips in regard to migrating a fairly complex software system to a new version
 of the programming language in which it has been originally written in. Most of the advice will be based on and related to the migration
 from Python 2 to Python 3 as this is probably the most likely migration process you can encounter in your near-future software career and it also happens to be
-the process I have the most experience with.** 
+the process I have the most experience with.
+
+![Spooky stuff](/images/spooky.jpg)
 
 Preparation
 --------
