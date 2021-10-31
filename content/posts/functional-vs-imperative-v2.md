@@ -10,6 +10,9 @@ title: Why functional programming is (still) relatively unpopular?
 weight: 1
 categories:
 - software
+images:
+- "/images/fp.jpg"
+featuredImage: "/images/fp.jpg"
 ---
 
 Some time ago I wrote a [post](https://pwegrzyn.com/2021/why-learn-functional-and-imperative/) arguing why every developer should know both functional and imperative programming. My position on this matter hasn't fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let's explore this further in this post.
@@ -32,8 +35,6 @@ Okay, this paragraph is probably only a meme (or is it?) but I do find it funny 
 And yes, I know that FP has a rich and long history in many branches of theoretical computer science.
 
 \**puts down tinfoil hat*\*
-
-<img src="/images/fp.jpg">
 
 ## The Curious Case of Cardano
 One particularly interesting example of recent FP adoption in a large project is definitely [Cardano](https://cardano.org/). I'm glad that they embraced FP in this project, since it will definitely lead to more people learning about FP, however, I also think that an important reason as to why Haskell and Scala were chosen as the languages of choice was because the founder, Charles Hoskinons, is a known enthusiast of maths, formal methods and, by extension, FP. Personally, I think this was kind of a mistake, since writing an entirely new, open platform in a (still) relatively exotic and somewhat obscure language will inevitably detract a large portion of potential developers interested in building on top of it in the future. On the other hand, maybe using Haskell and more formal methods of software development will ultimatelly save them from a future $100M hack, which already happened in some crypto projects. Only time will tell. It certainly is interesting to watch a project of this scale and innovation level be created using mostly functional and formal methods.
