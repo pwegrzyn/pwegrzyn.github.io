@@ -33,5 +33,7 @@ And yes, I know that FP has a rich and long history in many branches of theoreti
 
 \**puts down tinfoil hat*\*
 
+<img src="/images/fp.jpg">
+
 ## The Curious Case of Cardano
 One particularly interesting example of recent FP adoption in a large project is definitely [Cardano](https://cardano.org/). I'm glad that they embraced FP in this project, since it will definitely lead to more people learning about FP, however, I also think that an important reason as to why Haskell and Scala were chosen as the languages of choice was because the founder, Charles Hoskinons, is a known enthusiast of maths, formal methods and, by extension, FP. Personally, I think this was kind of a mistake, since writing an entirely new, open platform in a (still) relatively exotic and somewhat obscure language will inevitably detract a large portion of potential developers interested in building on top of it in the future. On the other hand, maybe using Haskell and more formal methods of software development will ultimatelly save them from a future $100M hack, which already happened in some crypto projects. Only time will tell. It certainly is interesting to watch a project of this scale and innovation level be created using mostly functional and formal methods.
