@@ -12,7 +12,7 @@ categories:
 - math
 ---
 
-![Quality meme from fb.com/geometryofmemes to properly start an article](/images/geo.png)
+![Mandatory quality meme from fb.com/geometryofmemes to properly start a post](/images/geo.png)
 
 When I was in high school, I was really into physics. Later, even though I chose to purse a degree in Computer Science, my love for physics did not go away. Quite the opposite, my math classes at uni allowed me to finally go deeper into more advanced physics topics (till then I had really only read the first tomes of Feynman's lecture textbooks, GR and QM was beyond my skills at that period). In spare time, I watched [Susskind's lectures on YT](https://www.youtube.com/playlist?list=PL6i60qoDQhQGaGbbg-4aSwXJvxOqO6o5e), read more books, and things were in general going smoothly. And then came General Relativity and QFT - tensors, curvatures, gauge theory, etc. I noticed that my math skills again were lacking. I tried to learn differential goemetry on my own (shoutout to an awesome channel teaching this subject - [XylyXylyX](https://www.youtube.com/user/XylyXylyX)), but had to stop because other stuff was more imporant (BSc thesis, MSc exam, internship).
 
