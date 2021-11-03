@@ -13,8 +13,6 @@ I got my Bachelor's degree in Computer Science from AGH-UST; in first years of m
 
 I used to work as a software developer at Akamai Inc., where I was responsbile for data propagation and validation components of Akamai's global CDN.
 
-My current interests are distributed systems (theory, cloud and decentralized Web3) and machine learning. Casually I'm also into graphics engines (Unreal, O3DE and custom stuff using OpenGL/Vulkan).
-
 ### CV
 
 My CV is available on request, but you can also check out my LinkedIn: [linkedin.com/in/patryk-wegrzyn/](https://www.linkedin.com/in/patryk-wegrzyn/)
