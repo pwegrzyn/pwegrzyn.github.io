@@ -6,7 +6,7 @@ linktitle: Functional vs Imperative v2
 type:
 - post 
 - posts
-title: Why functional programming is (still) relatively unpopular?
+title: Why Functional Programming is (Still) Relatively Unpopular?
 weight: 1
 categories:
 - software
