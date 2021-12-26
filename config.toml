@@ -1,4 +1,4 @@
-baseURL = "https://pwegrzyn.netlify.app/"
+baseURL = "https://pwegrzyn.com/"
 defaultContentLanguage = "en"
 languageCode = "en"
 title = "Patryk Węgrzyn | Software Engineer"
@@ -37,12 +37,12 @@ googleAnalytics = ""
 [params]
     since = 2020
     author = "Patryk Węgrzyn"               # Author's name
-    subtitle = "Patryk Węgrzyn (@pwegrzyn) 💻 Software Engineer | Computer Science Student | Physics Nerd"       # Subtitle
+    subtitle = "Patryk Węgrzyn (@pwegrzyn)"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
     avatar = "/images/profile.png" #comment it to use gravatar
     socialShare = true
-    description = "Patryk Węgrzyn (@pwegrzyn) 💻 Software Engineer | Computer Science Student | Physics Nerd" # site description
+    description = "Patryk Węgrzyn (@pwegrzyn)" # site description
     keywords = "pwegrzyn" # site keywords
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 

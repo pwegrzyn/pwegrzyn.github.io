@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3d03b1b3-adf6-45d6-899c-2814f45c93d8/deploy-status)](https://app.netlify.com/sites/pwegrzyn/deploys)
 
-Source of my website - [pwegrzyn.netlify.app](https://pwegrzyn.netlify.app/). Created with Hugo, KeepIt theme and deployed on Netfily.
+Source of my website - [pwegrzyn.com](https://pwegrzyn.com). Created with Hugo, KeepIt theme and deployed on Netfily.
 
 ### Quickstart
 
