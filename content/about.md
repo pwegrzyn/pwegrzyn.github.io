@@ -11,7 +11,7 @@ I'm Patryk, a software engineer based in Krakow, Poland.
 
 I got my Bachelor's degree in Computer Science from AGH-UST; in first years of my studies I was mainly interested in distributed systems and cryptography (leading to my graduation project being a cryptocurrency implementation from scratch). Later, during my Master's degree, I mostly switched to machine learning; in my final thesis I studied geometries of loss function surfaces in deep neural nets.
 
-I used to work at Akamai, where I was responsbile for data propagation and validation pipelines in the global CDN.
+I used to work at Akamai, where I was responsbile for CDN data validation pipelines.
 
 Currently I work as a Software Engineer at Google.
 
