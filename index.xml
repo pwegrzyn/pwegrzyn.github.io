@@ -1,0 +1,10 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Patryk Węgrzyn | Software Engineer on Patryk Węgrzyn | Software Engineer</title><link>https://pwegrzyn.github.io/</link><description>Recent content in Patryk Węgrzyn | Software Engineer on Patryk Węgrzyn | Software Engineer</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pwegrzyn.github.io/" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://pwegrzyn.github.io/posts/</link><pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate><guid>https://pwegrzyn.github.io/posts/</guid><description/></item><item><title>About</title><link>https://pwegrzyn.github.io/about/</link><pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate><guid>https://pwegrzyn.github.io/about/</guid><description>&lt;p>&lt;img src="https://pwegrzyn.github.io/images/galaxy.jpg" alt="">&lt;/p>
+&lt;h5 id="heading">&lt;/h5>
+&lt;p>I&amp;rsquo;m Patryk, a software engineer based in Krakow, Poland.&lt;/p>
+&lt;p>I got my Bachelor&amp;rsquo;s degree in Computer Science from AGH-UST; in first years of my studies I was mainly interested in distributed systems and cryptography (leading to my graduation project being a cryptocurrency implementation from scratch). Later, during my Master&amp;rsquo;s degree, I mostly switched to machine learning; in my final thesis I studied geometries of loss function surfaces in deep neural nets.&lt;/p>
+&lt;p>I used to work at Akamai, where I was responsbile for CDN data validation pipelines.&lt;/p>
+&lt;p>Currently I work as a Software Engineer at Google.&lt;/p>
+&lt;h3 id="cv">CV&lt;/h3>
+&lt;p>My CV is available on request, but you can also check out my LinkedIn: &lt;a href="https://www.linkedin.com/in/patryk-wegrzyn/">linkedin.com/in/patryk-wegrzyn/&lt;/a>&lt;/p>
+&lt;h3 id="blog">Blog&lt;/h3>
+&lt;p>I try to regularly post on my blog about all things software, math and technology. You can check it out here: &lt;a href="https://pwegrzyn.github.io/posts/">Blog&lt;/a>&lt;/p></description></item></channel></rss>

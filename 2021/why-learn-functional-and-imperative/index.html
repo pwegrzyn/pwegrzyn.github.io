@@ -1,0 +1,154 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<link rel=prev href=https://pwegrzyn.github.io/2020/getting-started-with-opengl/>
+<link rel=next href=https://pwegrzyn.github.io/2021/thinking-mathematically-review/>
+<link rel=canonical href=https://pwegrzyn.github.io/2021/why-learn-functional-and-imperative/>
+<link rel="shortcut icon" type=image/x-icon href=https://pwegrzyn.github.io/favicon.ico>
+<link rel=apple-touch-icon sizes=180x180 href=https://pwegrzyn.github.io/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=https://pwegrzyn.github.io/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=https://pwegrzyn.github.io/favicon-16x16.png>
+<link rel=manifest href=https://pwegrzyn.github.io/site.webmanifest>
+<link rel=mask-icon href=https://pwegrzyn.github.io/safari-pinned-tab.svg color=#5bbad5>
+<meta name=msapplication-TileColor content="#da532c">
+<meta name=theme-color content="#ffffff">
+<title>
+Why Every Developer Should Know Both Structural and Functional Programming | Patryk Węgrzyn | Software Engineer
+</title>
+<meta name=title content="Why Every Developer Should Know Both Structural and Functional Programming | Patryk Węgrzyn | Software Engineer">
+<link rel=stylesheet href=https://pwegrzyn.github.io/font/iconfont.css>
+<link rel=stylesheet href=https://pwegrzyn.github.io/css/main.min.css>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Why Every Developer Should Know Both Structural and Functional Programming">
+<meta name=twitter:description content="The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry. Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses. One is not inherently better than the other, each has characteristics making it better suited for some tasks and less optimal in others.">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Why Every Developer Should Know Both Structural and Functional Programming","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/pwegrzyn.github.io\/2021\/why-learn-functional-and-imperative\/"},"genre":"posts","wordcount":743,"url":"https:\/\/pwegrzyn.github.io\/2021\/why-learn-functional-and-imperative\/","datePublished":"2021-06-24T00:00:00\u002b00:00","dateModified":"2021-06-24T00:00:00\u002b00:00","publisher":{"@type":"Organization","name":"pwegrzyn","logo":{"@type":"ImageObject","url":"https:\/\/pwegrzyn.github.io\/images\/profile.png","width":127,"height":40}},"author":{"@type":"Person","name":"pwegrzyn"},"description":""}</script>
+</head>
+<body>
+<div class=wrapper>
+<nav class=navbar>
+<div class=container>
+<div class="navbar-header header-logo">
+<a href=https://pwegrzyn.github.io>Patryk Węgrzyn | Software Engineer</a>
+</div>
+<div class="menu navbar-right">
+<a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
+<a class=menu-item href=https://pwegrzyn.github.io/about title>About</a>
+<a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;
+</div>
+</div>
+</nav>
+<nav class=navbar-mobile id=nav-mobile style=display:none>
+<div class=container>
+<div class=navbar-header>
+<div> <a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;<a href=https://pwegrzyn.github.io>Patryk Węgrzyn | Software Engineer</a></div>
+<div class=menu-toggle>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=mobile-menu>
+<a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
+<a class=menu-item href=https://pwegrzyn.github.io/about title>About</a>
+</div>
+</div>
+</nav>
+<main class=main>
+<div class=container>
+<article class=post-warp>
+<header class=post-header>
+<h1 class=post-title>Why Every Developer Should Know Both Structural and Functional Programming</h1>
+<div class=post-meta>
+Written by <a href=https://pwegrzyn.github.io rel=author>Patryk Węgrzyn</a> with ♥
+<span class=post-time>
+on <time datetime=2021-06-24>24 June 2021</time>
+</span>
+in
+<i class="iconfont icon-folder"></i>
+<span class=post-category>
+<a href=https://pwegrzyn.github.io/categories/software/> software </a>
+</span>
+<i class="iconfont icon-timer"></i>
+4 min
+</div>
+</header>
+<div class=post-content>
+<p>The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry.
+Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses.
+One is not inherently better than the other, each has characteristics making it better suited for some tasks and less optimal in others.</p>
+<h2 id=functional-programming>Functional programming</h2>
+<p>In FP you write programs as compositions of pure functions (functions that deterministacally always produce the same output give some input). To achieve this, you must use immutable data structures. Writing in FP style also forces you to
+minimize side effects, the main one being of course IO. All these aspects seem great, since they make your program easier to test and better suited for tasks which require concurrency.</p>
+<p>However, each has it&rsquo;s drawback: immutability requires lots of copying or tricky algorithms to update only changing parts of data structures, managment of side effects becomes more complex and on overhead of itself and, finally, not each application can be necessarily easily and naturally written as a function composition.</p>
+<p>In my opinion, the most practical (and beautiful) aspect of FP, comes from the <a href=https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence>Curry–Howard correspondence</a>. Loosely speaking, this theorem states that programs are equal to mathematical proofs. This is especially prominent when your consider the most basic form of functional programming - <a href=https://en.wikipedia.org/wiki/Lambda_calculus>Lambda calculus</a> (LC). In this <a href=https://en.wikipedia.org/wiki/Model_of_computation>model of computation</a> you are only allowed to use 1 primitive - an abstract function object. But can you even program using ONLY functions? Yup, check <a href=https://gist.github.com/pwegrzyn/31c684a7ef32a5cabb3459a9375baaeb>this</a> out.</p>
+<p>Now consider a slightly more advanced version of Lambda calculus, with some nice syntactic sugar - Haskell.
+Let&rsquo;s say I want to prove this mathematical theorem:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-haskell data-lang=haskell>(<span style=color:#66d9ef>A</span> <span style=color:#f92672>-&gt;</span> <span style=color:#66d9ef>B</span>) <span style=color:#f92672>-&gt;</span> (<span style=color:#66d9ef>B</span> <span style=color:#f92672>-&gt;</span> <span style=color:#66d9ef>C</span>) <span style=color:#f92672>-&gt;</span> <span style=color:#66d9ef>A</span> <span style=color:#f92672>-&gt;</span> <span style=color:#66d9ef>C</span>
+</code></pre></div><p>Looks easy, I know that A implies B and that B implies C, therefore A should imply C. We can translate this logical preposition to Haskell by defining a function which has a matching type signature:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-haskell data-lang=haskell><span style=color:#a6e22e>impl_comp</span> <span style=color:#f92672>::</span> (a <span style=color:#f92672>-&gt;</span> b) <span style=color:#f92672>-&gt;</span> (b <span style=color:#f92672>-&gt;</span> c) <span style=color:#f92672>-&gt;</span> a <span style=color:#f92672>-&gt;</span> c
+</code></pre></div><p>Now, to effectively prove this preposition, all we need to do is add a definition to this function signature:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-haskell data-lang=haskell><span style=color:#a6e22e>impl_comp</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>\</span>(f<span style=color:#f92672>::</span>a <span style=color:#f92672>-&gt;</span> b) <span style=color:#f92672>-&gt;</span> <span style=color:#a6e22e>\</span>(g<span style=color:#f92672>::</span>b <span style=color:#f92672>-&gt;</span> c) <span style=color:#f92672>-&gt;</span> <span style=color:#a6e22e>\</span>(h<span style=color:#f92672>::</span>a) <span style=color:#f92672>-&gt;</span> g (f h)
+</code></pre></div><p>And, lo and behold, we have a proof for a mathematical theorem in the form of a Haskell program. Pretty cool, right? This is exactly Curry–Howard correspondence in action.</p>
+<p>So why do I think this is the main selling point of FP? Because it clearly shows that functional programming has an inherent and close connection to logic and math in general. This in turn means that FP is perfect for use cases where the domain and business logic is complex enough to justify using more advanced abstractions and generalizations, and where you also need an almost mathematically-strict way of proving the correctness of your solutions. Compared to imperative programming, FP&rsquo;s lack of
+mutability leads to easier work with highly concurrent systems.</p>
+<h2 id=imperativeobject-orientedstructural-programming>Imperative/Object-oriented/Structural programming</h2>
+<p>For most, imperative programming is a more natural way of writing code, and that shouldn&rsquo;t be surpring, thinking in terms of objects and steps then need to be undertaken to transform the state of these objects is closely related to how we view and interact with the world for most of the time. At the same time, we undergo many years of math education to develop a more strict way of reasoning, to deal with more complex concepts which require abstractions and generalizations. You don&rsquo;t calculate the Riemann metric tensor and curvature of spacetime when you want to throw a basketball. By analogy, I&rsquo;d argue that you also shouldn&rsquo;t use advanced FP when writing simple CRUD or CLI applications.</p>
+<p>On another note, imperative programming is much better suited as a base for considerations in the theory of computability, computational complexity and advanced algorithm development, that&rsquo;s because a <a href=https://en.wikipedia.org/wiki/Turing_machine>Turing Machine</a>, which is a mathematical model for all of them, is a sequential and imperative model by it&rsquo;s nature.</p>
+<p>Finally, a sequential and imperative model of computation is much easier to implement in hardware, so when working with low-level code you are forced to use this approach. Moreover, functional programming inherently requires more memory and processing power
+compared to imperative styles, so for embedded settings the latter is also a clear winner.</p>
+</div>
+<div class=post-copyright>
+<p class=copyright-item>
+<span>Author:</span>
+<span>Patryk Węgrzyn </span>
+</p>
+<p class=copyright-item>
+<span>Words:</span>
+<span>743</span>
+</p>
+<p class=copyright-item>
+<span>Share:</span>
+<span>
+<a href="//twitter.com/share?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fwhy-learn-functional-and-imperative%2f&text=Why%20Every%20Developer%20Should%20Know%20Both%20Structural%20and%20Functional%20Programming&via=_pwegrzyn" target=_blank title="Share on Twitter">
+<i class="iconfont icon-twitter"></i>
+</a>
+<a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fwhy-learn-functional-and-imperative%2f" target=_blank title="Share on Facebook">
+<i class="iconfont icon-facebook"></i>
+</a>
+<a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fwhy-learn-functional-and-imperative%2f&title=Why%20Every%20Developer%20Should%20Know%20Both%20Structural%20and%20Functional%20Programming" target=_blank title="Share on LinkedIn">
+<i class="iconfont icon-linkedin"></i>
+</a>
+</span>
+</p>
+<p class=copyright-item>
+Released under <a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a>
+</p>
+</div>
+<div class=post-tags>
+<section>
+<a href=javascript:window.history.back();>Back</a></span> ·
+<span><a href=https://pwegrzyn.github.io>Home</a></span>
+</section>
+</div>
+<div class=post-nav>
+<a href=https://pwegrzyn.github.io/2020/getting-started-with-opengl/ class=prev rel=prev title="Getting Started with OpenGL in 2020"><i class="iconfont icon-dajiantou"></i>&nbsp;Getting Started with OpenGL in 2020</a>
+<a href=https://pwegrzyn.github.io/2021/thinking-mathematically-review/ class=next rel=next title="The Single Most Valuable Math Book You Probably Haven't Heard About">The Single Most Valuable Math Book You Probably Haven't Heard About&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
+</div>
+<div class=post-comment>
+</div>
+</article>
+</div>
+</main>
+<footer class=footer>
+<div class=copyright>
+&copy;
+<span itemprop=copyrightYear>2020 – 2022</span>
+<span class=author itemprop=copyrightHolder><a href=https://pwegrzyn.github.io>Patryk Węgrzyn</a></span>
+<span></span>
+</div>
+</footer>
+<script src=https://pwegrzyn.github.io/js/vendor_no_gallery.min.js async></script>
+</div>
+</body>
+</html>

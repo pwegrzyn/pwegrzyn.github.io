@@ -1,0 +1,146 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<link rel=prev href=https://pwegrzyn.github.io/2021/differential-geometry-is-everywhere/>
+<link rel=canonical href=https://pwegrzyn.github.io/2021/functional-vs-imperative-v2/>
+<link rel="shortcut icon" type=image/x-icon href=https://pwegrzyn.github.io/favicon.ico>
+<link rel=apple-touch-icon sizes=180x180 href=https://pwegrzyn.github.io/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=https://pwegrzyn.github.io/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=https://pwegrzyn.github.io/favicon-16x16.png>
+<link rel=manifest href=https://pwegrzyn.github.io/site.webmanifest>
+<link rel=mask-icon href=https://pwegrzyn.github.io/safari-pinned-tab.svg color=#5bbad5>
+<meta name=msapplication-TileColor content="#da532c">
+<meta name=theme-color content="#ffffff">
+<title>
+Why Functional Programming is (Still) Relatively Unpopular? | Patryk Węgrzyn | Software Engineer
+</title>
+<meta name=title content="Why Functional Programming is (Still) Relatively Unpopular? | Patryk Węgrzyn | Software Engineer">
+<link rel=stylesheet href=https://pwegrzyn.github.io/font/iconfont.css>
+<link rel=stylesheet href=https://pwegrzyn.github.io/css/main.min.css>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Why Functional Programming is (Still) Relatively Unpopular?">
+<meta name=twitter:description content="Some time ago I wrote a post arguing why every developer should know both functional and imperative programming. My position on this matter hasn&rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&rsquo;s explore this further in this post.">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Why Functional Programming is (Still) Relatively Unpopular?","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/pwegrzyn.github.io\/2021\/functional-vs-imperative-v2\/"},"genre":"posts","wordcount":1787,"url":"https:\/\/pwegrzyn.github.io\/2021\/functional-vs-imperative-v2\/","datePublished":"2021-10-31T00:00:00\u002b00:00","dateModified":"2021-10-31T00:00:00\u002b00:00","publisher":{"@type":"Organization","name":"pwegrzyn","logo":{"@type":"ImageObject","url":"https:\/\/pwegrzyn.github.io\/images\/profile.png","width":127,"height":40}},"author":{"@type":"Person","name":"pwegrzyn"},"description":""}</script>
+</head>
+<body>
+<div class=wrapper>
+<nav class=navbar>
+<div class=container>
+<div class="navbar-header header-logo">
+<a href=https://pwegrzyn.github.io>Patryk Węgrzyn | Software Engineer</a>
+</div>
+<div class="menu navbar-right">
+<a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
+<a class=menu-item href=https://pwegrzyn.github.io/about title>About</a>
+<a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;
+</div>
+</div>
+</nav>
+<nav class=navbar-mobile id=nav-mobile style=display:none>
+<div class=container>
+<div class=navbar-header>
+<div> <a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;<a href=https://pwegrzyn.github.io>Patryk Węgrzyn | Software Engineer</a></div>
+<div class=menu-toggle>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=mobile-menu>
+<a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
+<a class=menu-item href=https://pwegrzyn.github.io/about title>About</a>
+</div>
+</div>
+</nav>
+<main class=main>
+<div class=container>
+<article class=post-warp>
+<header class=post-header>
+<h1 class=post-title>Why Functional Programming is (Still) Relatively Unpopular?</h1>
+<div class=post-meta>
+Written by <a href=https://pwegrzyn.github.io rel=author>Patryk Węgrzyn</a> with ♥
+<span class=post-time>
+on <time datetime=2021-10-31>31 October 2021</time>
+</span>
+in
+<i class="iconfont icon-folder"></i>
+<span class=post-category>
+<a href=https://pwegrzyn.github.io/categories/software/> software </a>
+</span>
+<i class="iconfont icon-timer"></i>
+9 min
+</div>
+</header>
+<div class=post-content>
+<p>Some time ago I wrote a <a href=https://pwegrzyn.github.io/2021/why-learn-functional-and-imperative/>post</a> arguing why every developer should know both functional and imperative programming. My position on this matter hasn&rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&rsquo;s explore this further in this post.</p>
+<p><figure><img src=https://pwegrzyn.github.io/images/ring.svg data-sizes=auto data-src=https://pwegrzyn.github.io/images/fp.jpg alt="Shots fired" class=lazyload><figcaption class=image-caption>Shots fired</figcaption></figure></p>
+<h2 id=computational-equivalence-and-irreducibility>Computational Equivalence and Irreducibility</h2>
+<p>Recently I&rsquo;ve become somewhat acquainted with some of Stephen Wolfram&rsquo;s <a href=https://writings.stephenwolfram.com/2017/05/a-new-kind-of-science-a-15-year-view/>ideas</a> regarding computation as a new perspective on science (as a sidenote, I swear, this guy either is a genius decades ahead of his time, or he just found a cute meta-analogy for most of mathematics and physics). The two core principles in this view are: computational equivalence and computational irreducibility. Both of these ideas are not new by any stretch of imagination and have been known since at least the orignal works of Turing, but, according to Wolfram, they are much more fundamental than previously assumed. The principle of equivalence basically states that each known type of computation is equally expressive and powerful. By type of computation we not only mean classical definitions like Turing Machines or Lambda Calculus, but also any type of process occurring in the natural world, such as neuron firings inside our brains or air molecules forming the chaotic patterns of weather during a storm. The second principle concerns the inherent irreducible nature of computation. It states that, in general, you cannot reduce one complex computation to a different, simpler computation. You might call this non-sense, since seemingly the entire point of modern science is to try to come up with models which would simplify and abstract the complexities of the physical world, thus allowing us to make predictions about future events, without having to wait for these events to actually occur by themselves. The key word here is &ldquo;in general&rdquo;. The argument here is that it is indeed sometimes possible to come up with reductions in the form of mathematical equations like Newton&rsquo;s laws of motion or Schroedinger&rsquo;s wave function formula, but these reductions are only valid to a certain degree of correctness and should only be treated simple approximations. Moreover, the existance of these laws and our ability to discover them is only possible because we live in these &ldquo;pockets of reducibility&rdquo;, that is subregions of the entire space of possible computations which exhibit certain repeatable patterns. All these cool ideas are interesting by themselves and are certainly worth a post in the future, but let&rsquo;s get back to our topic. The main conclusion from the principle of equivalence, so the idea that functional programming is in theory equivalent to imperative programming is kind of obvious at this point, so let&rsquo;s just skip it and move to the more interesting conclusions from the second principle. One can often hear in certain communities that their compiler is super awesome since it can basically do all the heavy lifting for them: they only need to write the actual logic and if their code sucessfully passes the strict and sophisticated type-checking of the compiler then you can be almost certain that your program is indeed correct and does not contain at least certain classes of bugs. And to be frank, this viewpoint is in principle correct. We know from the <a href=https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence>Curry–Howard isomorphism</a> that logical propositions indeed do correspond to computer programs. In principle you could write a logical proposition in the form of a function signature, implement a function corresponding to this signature, and if this function correctly type-checks that you proposition is indeed correct. This is the entire premise on which automated proof-checking is based upon (by the way, I think that <a href=https://leanprover.github.io/>Lean</a> is absolutely awesome and will definitely write more about it in the future). In practice, however, things are not so easy. It&rsquo;s actually quite difficult to properly map you business logic into type-checkable propositions and, more importantly, the principle of computational irreducibility tells us that in the end, the only absolute way of knowing whether your program is actually correct is to simply run it. What does it mean in practice? No matter how sophisticated your compiler is, how many static checks it performs, how much compile-time inspections it does, it still cannot guarantee 100% correct behaviour from an outside user perspective. So, what will? Tests. Tests which actually run your code. Okay, maybe tests will not <em>guarantee correctness</em> but they certainly can be useful to prove <em>incorrectness</em> (just like in science, you cannot prove a theory is valid, but a single experiment can easily disprove it). So in the end you always want to have a reasonable amount of tests, no matter if your program is written in Haskell or in C++. So since we should have as much tests as possible anyway, is it really worth it to increase the complexitiy of the codebase by adopting definitions straight from abstract algebra, which in turn would inevitably lead to longer compilation times, just to give you a possibly false sense of correctness? Maybe. But maybe not always. Some might argue that for most cases it&rsquo;s not worth it. And if you want more static checks at build time, each language, even the most dynamic one, has usually many optional third-party static analyzers and type-checkers.</p>
+<h2 id=algorithms-in-fp-land>Algorithms in FP-land</h2>
+<p>This is an interesting issue. On one hand, when you think about algorithm design and analysis, you usually think of implementing them in an imperative language like C or Java. Using a functional language, like Haskell, which does not support mutability, makes some of the algorithms harder to implement than others. Some kinds of algorithms and data structures cannot be implemented without mutations at all (although you can usually simply design the application to not use them). Therefore, when using FP, you always have to create <em>persistent data structures</em>, that is in-memory structures which preserve their entire history of edits. This can be a drawback, since such implementation are usually harder and possibly require more memory. At the same time, using such immutable structures is very convenient in multi-threaded applications. The main conclusion here is that designing and implementing algorithms using pure FP can be tricky, but worthwhile in highly concurrent environments. For more info on how to handle data structures in a purely functional way I recommend <a href=https://www.amazon.com/Purely-Functional-Data-Structures-Okasaki/dp/0521663504>&ldquo;Purely Functional Data Structures&rdquo;</a>.</p>
+<h2 id=tail-recursion-and-cps>(Tail) Recursion and CPS</h2>
+<p>We know that each recursive program can be transformed to an iterative one. It might not be an particularly elegant or easy to understand program, but it can be theoretically done. This is nice, since it allows engineers to come up with an easy recursive algorithm to a problem and then almost mechanically tranform it to an iterative equivalent. In FP, you are of course encouraged to always use recursion instead of explicit looping structures. And since each recursive call incurs a time and memory cost in the form a call stack allocation, you are also encouraged to use certain tricks such as <a href=https://en.wikipedia.org/wiki/Tail_call>tail-recursion</a> to alleviate this issue. The natural question is: is each recursive program always transformable to an equivalent program with only tail calls? Yes, it is, using for example a technique known as <a href=https://en.wikipedia.org/wiki/Continuation-passing_style>Continuation-Passing-Style</a>. In this approach you explicitly pass the state of the routine execution as a parameter. However, using CPS is not a silver bullet, it does help to easily implement certain kinds of algorithms, but it objectively makes the code less readable (it&rsquo;s quite similar to GOTO in imperative programming or callback hell in event-loop environments like early JS).</p>
+<h2 id=fp-as-a-gauge-of-problem-solving-skills>FP as a Gauge of Problem Solving Skills</h2>
+<p>A famous person once said that &ldquo;you have to be <em>this</em> tall to use functional programming in production&rdquo;. In other words, presumably functional programming is inherently more difficult than simple imperative programming. Therefore, if you want to hire the absolute best software engineers in the whole industry, you should hire functional programmers. FP is popular in fintech companies, since in these environment managment has this somewhat weird notion that simply hirigh FP talent will automatically lead to better quality code. To a certain degree, I kinda agree with this argument and see where is it coming from, but at the same time you don&rsquo;t see Google or Facebook include Haskell questions in their interview processes, moreover, AFAIK, FP is very rarely used in these big tech companies. I think that I agree with them in this regard: asking a few relatively easy math questions (probability, combinatorics, algebra) and 2-3 relatively hard algorithms questions is a far better way of measuring how good a given candidate is in general problem solving than asking them what is a difference between a monoid and a semi-group, or what is a lens.</p>
+<h2 id=fp-is-a-scam-invented-by-software-consultancy-companies-to-sell-you-more-software-consultancy>&ldquo;FP is a scam invented by software consultancy companies to sell you more software consultancy&rdquo;</h2>
+<p>Okay, this paragraph is probably only a meme (or is it?) but I do find it funny that there are a lot of companies whose entire business model is based on providing solutions for other companies which embraced functional programming, it&rsquo;s not like their sole existence is premised on popularizing FP in every conceivable enrivonrment, while simultaneously consciously concealling the many drawbacks and added complexities incurred when adopting FP systems. Surely they wouldn&rsquo;t dare to overhype this approach to large-scale software development of complex systems, praising its (questionable?) benefits, while also knowing full well that in practice FP can lead to worse long term maintainability and capacity to evolve, right? Right??</p>
+<p>And yes, I know that FP has a rich and long history in many branches of theoretical computer science.</p>
+<p>*<em>puts down tinfoil hat</em>*</p>
+<h2 id=the-curious-case-of-cardano>The Curious Case of Cardano</h2>
+<p>One particularly interesting example of recent FP adoption in a large project is definitely <a href=https://cardano.org/>Cardano</a>. I&rsquo;m glad that they embraced FP in this project, since it will definitely lead to more people learning about FP, however, I also think that an important reason as to why Haskell and Scala were chosen as the languages of choice was because the founder, Charles Hoskinons, is a known enthusiast of maths, formal methods and, by extension, FP. Personally, I think this was kind of a mistake, since writing an entirely new, open platform in a (still) relatively exotic and somewhat obscure language will inevitably detract a large portion of potential developers interested in building on top of it in the future. On the other hand, maybe using Haskell and more formal methods of software development will ultimatelly save them from a future $100M hack, which already happened in some crypto projects. Only time will tell. It certainly is interesting to watch a project of this scale and innovation level be created using mostly functional and formal methods.</p>
+</div>
+<div class=post-copyright>
+<p class=copyright-item>
+<span>Author:</span>
+<span>Patryk Węgrzyn </span>
+</p>
+<p class=copyright-item>
+<span>Words:</span>
+<span>1787</span>
+</p>
+<p class=copyright-item>
+<span>Share:</span>
+<span>
+<a href="//twitter.com/share?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2ffunctional-vs-imperative-v2%2f&text=Why%20Functional%20Programming%20is%20%28Still%29%20Relatively%20Unpopular%3f&via=_pwegrzyn" target=_blank title="Share on Twitter">
+<i class="iconfont icon-twitter"></i>
+</a>
+<a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpwegrzyn.github.io%2f2021%2ffunctional-vs-imperative-v2%2f" target=_blank title="Share on Facebook">
+<i class="iconfont icon-facebook"></i>
+</a>
+<a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2ffunctional-vs-imperative-v2%2f&title=Why%20Functional%20Programming%20is%20%28Still%29%20Relatively%20Unpopular%3f" target=_blank title="Share on LinkedIn">
+<i class="iconfont icon-linkedin"></i>
+</a>
+</span>
+</p>
+<p class=copyright-item>
+Released under <a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a>
+</p>
+</div>
+<div class=post-tags>
+<section>
+<a href=javascript:window.history.back();>Back</a></span> ·
+<span><a href=https://pwegrzyn.github.io>Home</a></span>
+</section>
+</div>
+<div class=post-nav>
+<a href=https://pwegrzyn.github.io/2021/differential-geometry-is-everywhere/ class=prev rel=prev title="Geometry is Everywhere: or How I Learned to Stop Worrying and Love the Manifold"><i class="iconfont icon-dajiantou"></i>&nbsp;Geometry is Everywhere: or How I Learned to Stop Worrying and Love the Manifold</a>
+</div>
+<div class=post-comment>
+</div>
+</article>
+</div>
+</main>
+<footer class=footer>
+<div class=copyright>
+&copy;
+<span itemprop=copyrightYear>2020 – 2022</span>
+<span class=author itemprop=copyrightHolder><a href=https://pwegrzyn.github.io>Patryk Węgrzyn</a></span>
+<span></span>
+</div>
+</footer>
+<link crossorigin=anonymous integrity=sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb href=https://lib.baomitu.com/lightgallery/1.6.12/css/lightgallery.min.css rel=stylesheet>
+<script src=https://pwegrzyn.github.io/js/vendor_gallery.min.js async></script>
+</div>
+</body>
+</html>
