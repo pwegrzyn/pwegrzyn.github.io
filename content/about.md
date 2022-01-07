@@ -4,7 +4,6 @@ date: "2020-09-14"
 aliases: ["about","pwegrzyn","author","contact"]
 ---
 
-![](/images/galaxy.jpg)
 #####
 
 Hi, I'm Patryk, a software developer based in Krakow, Poland. 
