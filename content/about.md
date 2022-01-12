@@ -14,10 +14,6 @@ I used to work at Akamai Technologies, where I was responsbile for CDN data vali
 
 Currently I work as a Software Engineer at Google.
 
-My favourite concepts are computation, self-reference and mechanism design.
-
-I like to read (mostly SciFi/Fantasy/Non-fiction), listen to rock and play some video games from time to time.
-
 ### CV
 
 My CV is available on request, but you can also check out my LinkedIn: [linkedin.com/in/patryk-wegrzyn/](https://www.linkedin.com/in/patryk-wegrzyn/)
