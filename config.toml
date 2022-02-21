@@ -50,7 +50,6 @@ googleAnalytics = ""
     GitHub = "pwegrzyn"
     Linkedin = "patryk-wegrzyn"
     Twitter = "_pwegrzyn"
-    Email   = "wegpat@gmail.com"
 
 [params.share]
 Twitter = true
