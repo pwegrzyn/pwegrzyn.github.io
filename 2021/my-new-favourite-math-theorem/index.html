@@ -1,141 +1,20 @@
-<!doctype html><html lang=en>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="chrome=1">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=robots content="noodp">
-<link rel=prev href=https://pwegrzyn.github.io/2021/the-case-against-against-crypto/>
-<link rel=next href=https://pwegrzyn.github.io/2021/mode-connectivity/>
-<link rel=canonical href=https://pwegrzyn.github.io/2021/my-new-favourite-math-theorem/>
-<link rel="shortcut icon" type=image/x-icon href=https://pwegrzyn.github.io/favicon.ico>
-<link rel=apple-touch-icon sizes=180x180 href=https://pwegrzyn.github.io/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=https://pwegrzyn.github.io/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=https://pwegrzyn.github.io/favicon-16x16.png>
-<link rel=manifest href=https://pwegrzyn.github.io/site.webmanifest>
-<link rel=mask-icon href=https://pwegrzyn.github.io/safari-pinned-tab.svg color=#5bbad5>
-<meta name=msapplication-TileColor content="#da532c">
-<meta name=theme-color content="#ffffff">
-<title>
-My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem | Patryk Węgrzyn | Software Engineer
-</title>
-<meta name=title content="My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem | Patryk Węgrzyn | Software Engineer">
-<link rel=stylesheet href=https://pwegrzyn.github.io/font/iconfont.css>
-<link rel=stylesheet href=https://pwegrzyn.github.io/css/main.min.css>
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem">
-<meta name=twitter:description content="When someone&rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&rsquo;s a high probability that they will think of either Cantor&rsquo;s diagonal argument, proving that some infinities are bigger than others, or Gödel&rsquo;s incompleteness theorem, which shows that a formal system can contain statements that are not provable within the system, or Russell&rsquo;s paradox, which suggests that some sets are actually not allowed to exist, or Turing&rsquo;s halting problem, which in essence proves that not all problems have an algorithmic solution.">
-<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"My New Favourite Math Abstraction - Lawvere\u0027s Fixed Point Theorem","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/pwegrzyn.github.io\/2021\/my-new-favourite-math-theorem\/"},"genre":"posts","wordcount":430,"url":"https:\/\/pwegrzyn.github.io\/2021\/my-new-favourite-math-theorem\/","datePublished":"2021-08-10T00:00:00\u002b00:00","dateModified":"2021-08-10T00:00:00\u002b00:00","publisher":{"@type":"Organization","name":"pwegrzyn","logo":{"@type":"ImageObject","url":"https:\/\/pwegrzyn.github.io\/images\/profile.png","width":127,"height":40}},"author":{"@type":"Person","name":"pwegrzyn"},"description":""}</script>
-</head>
-<body>
-<div class=wrapper>
-<nav class=navbar>
-<div class=container>
-<div class="navbar-header header-logo">
-<a href=https://pwegrzyn.github.io>Patryk Węgrzyn | Software Engineer</a>
-</div>
-<div class="menu navbar-right">
-<a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><link rel=prev href=https://pwegrzyn.github.io/2021/the-case-against-against-crypto/><link rel=next href=https://pwegrzyn.github.io/2021/mode-connectivity/><link rel=canonical href=https://pwegrzyn.github.io/2021/my-new-favourite-math-theorem/><link rel='shortcut icon' type=image/x-icon href=https://pwegrzyn.github.io/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=https://pwegrzyn.github.io/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://pwegrzyn.github.io/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://pwegrzyn.github.io/favicon-16x16.png><link rel=manifest href=https://pwegrzyn.github.io/site.webmanifest><link rel=mask-icon href=https://pwegrzyn.github.io/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><title>My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem | Patryk Węgrzyn</title><meta name=title content="My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem | Patryk Węgrzyn"><link rel=stylesheet href=https://pwegrzyn.github.io/font/iconfont.css><link rel=stylesheet href=https://pwegrzyn.github.io/css/main.min.css><meta name=twitter:card content="summary"><meta name=twitter:title content="My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem"><meta name=twitter:description content="When someone&rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&rsquo;s a high probability that they will think of either Cantor&rsquo;s diagonal argument, proving that some infinities are bigger than others, or Gödel&rsquo;s incompleteness theorem, which shows that a formal system can contain statements that are not provable within the system, or Russell&rsquo;s paradox, which suggests that some sets are actually not allowed to exist, or Turing&rsquo;s halting problem, which in essence proves that not all problems have an algorithmic solution."><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"My New Favourite Math Abstraction - Lawvere\u0027s Fixed Point Theorem","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/pwegrzyn.github.io\/2021\/my-new-favourite-math-theorem\/"},"genre":"posts","wordcount":430,"url":"https:\/\/pwegrzyn.github.io\/2021\/my-new-favourite-math-theorem\/","datePublished":"2021-08-10T00:00:00\u002b00:00","dateModified":"2021-08-10T00:00:00\u002b00:00","publisher":{"@type":"Organization","name":"pwegrzyn","logo":{"@type":"ImageObject","url":"https:\/\/pwegrzyn.github.io\/images\/profile.png","width":127,"height":40}},"author":{"@type":"Person","name":"pwegrzyn"},"description":""}</script></head><body><div class=wrapper><nav class=navbar><div class=container><div class="navbar-header header-logo"><a href=https://pwegrzyn.github.io>Patryk Węgrzyn</a></div><div class="menu navbar-right"><a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
 <a class=menu-item href=https://pwegrzyn.github.io/about title>About</a>
-<a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;
-</div>
-</div>
-</nav>
-<nav class=navbar-mobile id=nav-mobile style=display:none>
-<div class=container>
-<div class=navbar-header>
-<div> <a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;<a href=https://pwegrzyn.github.io>Patryk Węgrzyn | Software Engineer</a></div>
-<div class=menu-toggle>
-<span></span><span></span><span></span>
-</div>
-</div>
-<div class=menu id=mobile-menu>
-<a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
-<a class=menu-item href=https://pwegrzyn.github.io/about title>About</a>
-</div>
-</div>
-</nav>
-<main class=main>
-<div class=container>
-<article class=post-warp>
-<header class=post-header>
-<h1 class=post-title>My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem</h1>
-<div class=post-meta>
-Written by <a href=https://pwegrzyn.github.io rel=author>Patryk Węgrzyn</a> with ♥
-<span class=post-time>
-on <time datetime=2021-08-10>10 August 2021</time>
-</span>
+<a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;</div></div></nav><nav class=navbar-mobile id=nav-mobile style=display:none><div class=container><div class=navbar-header><div><a href=javascript:void(0); class=theme-switch><i class="iconfont icon-sun"></i></a>&nbsp;<a href=https://pwegrzyn.github.io>Patryk Węgrzyn</a></div><div class=menu-toggle><span></span><span></span><span></span></div></div><div class=menu id=mobile-menu><a class=menu-item href=https://pwegrzyn.github.io/posts/ title>Blog</a>
+<a class=menu-item href=https://pwegrzyn.github.io/about title>About</a></div></div></nav><main class=main><div class=container><article class=post-warp><header class=post-header><h1 class=post-title>My New Favourite Math Abstraction - Lawvere's Fixed Point Theorem</h1><div class=post-meta>Written by <a href=https://pwegrzyn.github.io rel=author>Patryk Węgrzyn</a> with ♥
+<span class=post-time>on <time datetime=2021-08-10>10 August 2021</time></span>
 in
 <i class="iconfont icon-folder"></i>
-<span class=post-category>
-<a href=https://pwegrzyn.github.io/categories/math/> math </a>
-</span>
+<span class=post-category><a href=https://pwegrzyn.github.io/categories/math/>math</a></span>
 <i class="iconfont icon-timer"></i>
-3 min
-</div>
-</header>
-<div class=post-content>
-<p>When someone&rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&rsquo;s a high probability that they will think of either <a href=https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument>Cantor&rsquo;s diagonal argument</a>, proving that some infinities are bigger than others, or <a href=https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems>Gödel&rsquo;s incompleteness theorem</a>, which shows that a formal system can contain statements that are not provable within the system, or <a href=https://en.wikipedia.org/wiki/Russell%27s_paradox>Russell&rsquo;s paradox</a>, which suggests that some sets are actually not allowed to exist, or <a href=https://en.wikipedia.org/wiki/Halting_problem>Turing&rsquo;s halting problem</a>, which in essence proves that not all problems have an algorithmic solution. Indeed, these theorems directly or indirectly lead to the development of entirely new branches of mathematics and questioned our basic understanding of this field. Personally, I was always fascinated that such simple observations can tell us so much about the limitations and perplexities of logic. I was also intrigued that all these theorems are structurally very similar to each other when you think about it - each of them contains a self-reference that eventually leads to an unexpected conclusion. It almost feels like they&rsquo;re special cases of some deeper truth underpinning the very foundations of mathematics.</p>
-<p>A few months ago, during a casual learning session on category theory, I&rsquo;ve stumbled upon Lawvere&rsquo;s fixed point theorem. At first, I didn&rsquo;t really see the connection between this seemingly uninteresing theorem and the aformentioned paradoxes. Later, however, I was directed by <a href=https://mathoverflow.net/questions/39626/is-there-a-general-setting-for-self-reference>this</a> mathoverflow answer to the phenomenal paper by Noson S. Yanofsky - <em>&ldquo;A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points&rdquo;</em>. I highly recommend giving it a read. It&rsquo;s not an particularly easy read, by certainly digestible after some time. I was stunned by how one theorem can caputrue in such an elegant way the richness of so many aspects of logic and math in general. For me, this is a strong argument in favour of category theory (and other meta-matemathics approaches) being a fundamental unification of not only most of mathematics, but also computer science and possibly physics (more on that subject <a href=https://math.berkeley.edu/~erabin/The%20Categorical%20Language%20of%20Physics.pdf>here</a>).</p>
-<p>I will not go into the technical details of this theorem in this brief post, since I don&rsquo;t feel yet qualified enough to explain it to a general public in a comprehensible way, and also because others already did a phenomenal job in this regard.</p>
-<p>Instead, I recommend you to go through these resources:</p>
-<ul>
-<li>A very recent and approachable video lecture by Noson S. Yanofsky himself - <a href="https://www.youtube.com/watch?v=RuzePhMPBxw">Self-Referential Paradoxes</a></li>
-<li>The original paper by the same author - <a href=https://arxiv.org/abs/math/0305282>A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points</a></li>
-<li>nLabs&rsquo;s articles - <a href="https://ncatlab.org/nlab/show/Lawvere's+fixed+point+theorem">Lawvere&rsquo;s fixed point theorem</a></li>
-<li><a href="https://www.youtube.com/watch?v=rHsuesTdFLM">This</a> video on YT by Nikolaj-K</li>
-</ul>
-</div>
-<div class=post-copyright>
-<p class=copyright-item>
-<span>Author:</span>
-<span>Patryk Węgrzyn </span>
-</p>
-<p class=copyright-item>
-<span>Words:</span>
-<span>430</span>
-</p>
-<p class=copyright-item>
-<span>Share:</span>
-<span>
-<a href="//twitter.com/share?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fmy-new-favourite-math-theorem%2f&text=My%20New%20Favourite%20Math%20Abstraction%20-%20Lawvere%27s%20Fixed%20Point%20Theorem&via=_pwegrzyn" target=_blank title="Share on Twitter">
-<i class="iconfont icon-twitter"></i>
-</a>
-<a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fmy-new-favourite-math-theorem%2f" target=_blank title="Share on Facebook">
-<i class="iconfont icon-facebook"></i>
-</a>
-<a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fmy-new-favourite-math-theorem%2f&title=My%20New%20Favourite%20Math%20Abstraction%20-%20Lawvere%27s%20Fixed%20Point%20Theorem" target=_blank title="Share on LinkedIn">
-<i class="iconfont icon-linkedin"></i>
-</a>
-</span>
-</p>
-<p class=copyright-item>
-Released under <a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a>
-</p>
-</div>
-<div class=post-tags>
-<section>
-<a href=javascript:window.history.back();>Back</a></span> ·
-<span><a href=https://pwegrzyn.github.io>Home</a></span>
-</section>
-</div>
-<div class=post-nav>
-<a href=https://pwegrzyn.github.io/2021/the-case-against-against-crypto/ class=prev rel=prev title='The Case Against "Against Crypto"'><i class="iconfont icon-dajiantou"></i>&nbsp;The Case Against "Against Crypto"</a>
-<a href=https://pwegrzyn.github.io/2021/mode-connectivity/ class=next rel=next title="Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets">Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
-</div>
-<div class=post-comment>
-</div>
-</article>
-</div>
-</main>
-<footer class=footer>
-<div class=copyright>
-&copy;
+3 min</div></header><div class=post-content><p>When someone&rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&rsquo;s a high probability that they will think of either <a href=https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument>Cantor&rsquo;s diagonal argument</a>, proving that some infinities are bigger than others, or <a href=https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems>Gödel&rsquo;s incompleteness theorem</a>, which shows that a formal system can contain statements that are not provable within the system, or <a href=https://en.wikipedia.org/wiki/Russell%27s_paradox>Russell&rsquo;s paradox</a>, which suggests that some sets are actually not allowed to exist, or <a href=https://en.wikipedia.org/wiki/Halting_problem>Turing&rsquo;s halting problem</a>, which in essence proves that not all problems have an algorithmic solution. Indeed, these theorems directly or indirectly lead to the development of entirely new branches of mathematics and questioned our basic understanding of this field. Personally, I was always fascinated that such simple observations can tell us so much about the limitations and perplexities of logic. I was also intrigued that all these theorems are structurally very similar to each other when you think about it - each of them contains a self-reference that eventually leads to an unexpected conclusion. It almost feels like they&rsquo;re special cases of some deeper truth underpinning the very foundations of mathematics.</p><p>A few months ago, during a casual learning session on category theory, I&rsquo;ve stumbled upon Lawvere&rsquo;s fixed point theorem. At first, I didn&rsquo;t really see the connection between this seemingly uninteresing theorem and the aformentioned paradoxes. Later, however, I was directed by <a href=https://mathoverflow.net/questions/39626/is-there-a-general-setting-for-self-reference>this</a> mathoverflow answer to the phenomenal paper by Noson S. Yanofsky - <em>&ldquo;A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points&rdquo;</em>. I highly recommend giving it a read. It&rsquo;s not an particularly easy read, by certainly digestible after some time. I was stunned by how one theorem can caputrue in such an elegant way the richness of so many aspects of logic and math in general. For me, this is a strong argument in favour of category theory (and other meta-matemathics approaches) being a fundamental unification of not only most of mathematics, but also computer science and possibly physics (more on that subject <a href=https://math.berkeley.edu/~erabin/The%20Categorical%20Language%20of%20Physics.pdf>here</a>).</p><p>I will not go into the technical details of this theorem in this brief post, since I don&rsquo;t feel yet qualified enough to explain it to a general public in a comprehensible way, and also because others already did a phenomenal job in this regard.</p><p>Instead, I recommend you to go through these resources:</p><ul><li>A very recent and approachable video lecture by Noson S. Yanofsky himself - <a href="https://www.youtube.com/watch?v=RuzePhMPBxw">Self-Referential Paradoxes</a></li><li>The original paper by the same author - <a href=https://arxiv.org/abs/math/0305282>A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points</a></li><li>nLabs&rsquo;s articles - <a href="https://ncatlab.org/nlab/show/Lawvere's+fixed+point+theorem">Lawvere&rsquo;s fixed point theorem</a></li><li><a href="https://www.youtube.com/watch?v=rHsuesTdFLM">This</a> video on YT by Nikolaj-K</li></ul></div><div class=post-copyright><p class=copyright-item><span>Author:</span>
+<span>Patryk Węgrzyn</span></p><p class=copyright-item><span>Words:</span>
+<span>430</span></p><p class=copyright-item><span>Share:</span>
+<span><a href="//twitter.com/share?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fmy-new-favourite-math-theorem%2f&text=My%20New%20Favourite%20Math%20Abstraction%20-%20Lawvere%27s%20Fixed%20Point%20Theorem&via=_pwegrzyn" target=_blank title="Share on Twitter"><i class="iconfont icon-twitter"></i></a>
+<a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fmy-new-favourite-math-theorem%2f" target=_blank title="Share on Facebook"><i class="iconfont icon-facebook"></i></a>
+<a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpwegrzyn.github.io%2f2021%2fmy-new-favourite-math-theorem%2f&title=My%20New%20Favourite%20Math%20Abstraction%20-%20Lawvere%27s%20Fixed%20Point%20Theorem" target=_blank title="Share on LinkedIn"><i class="iconfont icon-linkedin"></i></a></span></p><p class=copyright-item>Released under <a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></p></div><div class=post-tags><section><a href=javascript:window.history.back();>Back</a></span> ·
+<span><a href=https://pwegrzyn.github.io>Home</a></span></section></div><div class=post-nav><a href=https://pwegrzyn.github.io/2021/the-case-against-against-crypto/ class=prev rel=prev title='The Case Against "Against Crypto"'><i class="iconfont icon-dajiantou"></i>&nbsp;The Case Against "Against Crypto"</a>
+<a href=https://pwegrzyn.github.io/2021/mode-connectivity/ class=next rel=next title="Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets">Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets&nbsp;<i class="iconfont icon-xiaojiantou"></i></a></div><div class=post-comment></div></article></div></main><footer class=footer><div class=copyright>&copy;
 <span itemprop=copyrightYear>2020 – 2022</span>
 <span class=author itemprop=copyrightHolder><a href=https://pwegrzyn.github.io>Patryk Węgrzyn</a></span>
-<span></span>
-</div>
-</footer>
-<script src=https://pwegrzyn.github.io/js/vendor_no_gallery.min.js async></script>
-</div>
-</body>
-</html>
+<span></span></div></footer><script src=https://pwegrzyn.github.io/js/vendor_no_gallery.min.js async></script></div></body></html>
