@@ -2,11 +2,11 @@
 authors:
 - name: "Patryk Węgrzyn"
 date: 2022-10-02
-linktitle: On the (Un)reasonable Effectivness of Math in Physics
+linktitle: On the (Un)reasonable Effectiveness of Math in Physics
 type:
 - post 
 - posts
-title: On the (Un)reasonable Effectivness of Math in Physics
+title: On the (Un)reasonable Effectiveness of Math in Physics
 weight: 1
 categories:
 - math
