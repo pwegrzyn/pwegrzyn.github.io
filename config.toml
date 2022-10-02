@@ -1,7 +1,7 @@
 baseURL = "https://pwegrzyn.github.io"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "Patryk Węgrzyn | Software Engineer"
+title = "Patryk Węgrzyn"
 theme = "KeepIt"
 paginate = 12
 canonifyURLs = true
