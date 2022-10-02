@@ -12,7 +12,7 @@ categories:
 - math
 ---
 
-In his famous 1960 article Eugene Wigner argued about the "the unreasonable effectiveness of mathematics in the natural sciences". The main point made here was the existance of a seemingly unexpected natural relationship between math and physics. Specifically, why does math lend itself so well to modelling of physical reality? Why are physical laws and processess even expressable as mathematical equations in the first place? Where does this correspondence between abstract platonic ideas and concrete physical observations originate from?
+In his famous 1960 article Eugene Wigner argued about "the unreasonable effectiveness of mathematics in the natural sciences". The main point made here was the existance of a seemingly unexpected natural relationship between math and physics. Specifically, why does math lend itself so well to modelling of physical reality? Why are physical laws and processess even expressable as mathematical equations in the first place? Where does this correspondence between abstract platonic ideas and concrete physical observations originate from?
 
 My take on this is as follows.
 
