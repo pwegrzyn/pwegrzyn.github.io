@@ -12,7 +12,7 @@ I obtained my Bachelor's degree in Computer Science from AGH-UST in Krakow. In f
 
 I used to work as a software engineer at Akamai, where I was responsible for CDN data validation pipelines.
 
-Currently, I work as a backend engineer at Google, where I develop APIs in Cloud.
+Currently, I work as a backend engineer at Google, where I develop Cloud AI APIs.
 
 ### CV
 
