@@ -1,12 +1,13 @@
 ---
 title: "About"
-date: "2020-09-14"
+date: "2024-01-31"
 aliases: ["about","pwegrzyn","author","contact"]
+toc: false
 ---
 
 #####
 
-Hello, I'm Patryk, a software engineer based in Poland.
+Hi 👋, I'm Patryk, a software engineer based in Poland.
 
 I obtained my Bachelor's degree in Computer Science from AGH-UST in Krakow. In first years of my studies I was mainly interested in distributed systems and cryptography, leading to my graduation project being a fully-fledged cryptocurrency implementation from scratch. Later, during my Master's degree, I switched focus to machine learning - in my final thesis I studied the generalization capabilities of deep neural nets through the lens of geometries of loss function manifolds.
 

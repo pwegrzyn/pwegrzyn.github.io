@@ -1,8 +1,7 @@
 # pwegrzyn.github.io
-Personal website 
 
-Built with Hugo SSG and KeepIt theme.
+Personal website
 
-Build and deployment pipelines on GitHub Workflows/Pages triggered via commit to `master`.
+Built with Hugo SSG and hugo-blog-awesome theme (<https://themes.gohugo.io/themes/hugo-blog-awesome/>).
 
-After cloning the repo run this command `git submodule update --init --recursive`.
+Build and deployment pipelines on GitHub Workflows/Pages.

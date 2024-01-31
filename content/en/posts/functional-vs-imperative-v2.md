@@ -12,7 +12,7 @@ categories:
 - software
 ---
 
-Some time ago I wrote a [post](/2021/why-learn-functional-and-imperative/) arguing why every developer should know both functional and imperative programming. My position on this matter hasn't fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let's explore this further in this post.
+Some time ago I wrote a [post](/posts/why-learn-functional-and-imperative/) arguing why every developer should know both functional and imperative programming. My position on this matter hasn't fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let's explore this further in this post.
 
 ![Shots fired](/images/fp.jpg)
 
