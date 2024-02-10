@@ -6,7 +6,7 @@ linktitle: Simplicity Complexity Ladder
 type:
 - post
 - posts
-title: AGI is but a step on the cyclic technological simplicity-complexity bootrapping ladder.
+title: AGI is but a step on the technological simplicity-complexity bootstrapping ladder.
 weight: 1
 toc: false
 categories:
@@ -19,7 +19,7 @@ Let's start with the laws of physics. I won't go deeply into it, but there is a 
 
 At some point, through the power of language and formal reasoning, humans developed math and later computer programs. Now, here's the key part. Human language is an extremely complex system, and that is precisely why it's relatively easy to use it to construct (bootstrap) high-level abstractions and concepts, which allowed humans to relatively quickly create the modern civilization as we know it. It would be extremely hard and time consuming to instead try to use simple rules to achieve the same result. The combinatorial explosion is just too immense, like in the the common example of a monkey randomly clicking on a typewriter, hoping eventually this would lead to a text like Shakespeare. Therefore, one can argue that complexity is a prerequisite of quickly moving forward with technological progress (i.e. way faster than billions of years). However, such "surfing the wave" of complexity cannot last forever. Soon, it becomes apparent that the only way to progress further and attain a higher level capabilities is to create a simple system, which will then lead to emergence of higher-order complexity. Now, this comes with a cost, as the next-level intelligence will inevitably be more powerful as its creator.
 
-A nice analogy here is the CISC vs RISC history. Initially, one could argue that CISC (a more complex set of instructions) was needed to quickly bootrap the entire software ecosystem. Later, however, humanity discovered to benefits of employing simple rules, thus settling on RISC.
+A nice analogy here is the CISC vs RISC history. Initially, one could argue that CISC (a more complex set of instructions) was needed to quickly boostrap the entire software ecosystem. Later, however, humanity discovered to benefits of employing simple rules, thus settling on RISC.
 
 Having discovered the power of simple programs and algorithms, the natural next step was to take an insane amount of raw compute, data and energy to create a model like GPT-4. Such models undoubtedly exhibit emergent complex behaviours, so can be thought of as first of its kind form of higher-order intelligence. It is similar to human intelligence, but (probably) ultimately more powerful in the long run.
 
