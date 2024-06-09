@@ -2,7 +2,6 @@ baseURL = "https://pwegrzyn.github.io"
 languageCode = 'en-gb'
 title = "Patryk Wegrzyn"
 theme = "hugo-blog-awesome"
-paginate = 12
 canonifyURLs = true
 publishDir = "public"
 enableEmoji = true
