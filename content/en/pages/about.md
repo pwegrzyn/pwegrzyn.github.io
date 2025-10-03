@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2024-01-31"
+date: "2025-10-03"
 aliases: ["about","pwegrzyn","author","contact"]
 toc: false
 ---
@@ -13,7 +13,7 @@ I obtained my Bachelor's degree in Computer Science from AGH-UST in Krakow. In f
 
 I used to work as a software engineer at Akamai, where I was responsible for CDN data pipelines.
 
-Currently, I work as a backend engineer at Google, where I develop LLM serving APIs in Cloud.
+Later, I worked as a backend engineer at Google, where I developed LLM inference and agent APIs in Cloud.
 
 ### CV
 
