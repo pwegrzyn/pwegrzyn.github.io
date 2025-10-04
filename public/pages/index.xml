@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Patryk Wegrzyn</title>
+    <link>https://pwegrzyn.github.io/pages/</link>
+    <description>Recent content in Pages on Patryk Wegrzyn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://pwegrzyn.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://pwegrzyn.github.io/pages/about/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://pwegrzyn.github.io/pages/about/</guid>
+      
+      <description>Hi, I&amp;rsquo;m Patryk, a software engineer based in Poland.
+I obtained my Bachelor&amp;rsquo;s degree in Computer Science from AGH-UST in Krakow. In first years of my studies I was mainly interested in distributed systems and cryptography, leading to my graduation project being a proof-of-work cryptocurrency implementation from scratch. Later, during my Master&amp;rsquo;s degree, I switched focus to machine learning - in my final thesis I studied the generalization capabilities of deep neural nets through the lens of geometries of loss function manifolds.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

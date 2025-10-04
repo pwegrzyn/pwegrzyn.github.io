@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graphics on Patryk Wegrzyn</title>
+    <link>https://pwegrzyn.github.io/categories/graphics/</link>
+    <description>Recent content in graphics on Patryk Wegrzyn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pwegrzyn.github.io/categories/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with OpenGL in 2020</title>
+      <link>https://pwegrzyn.github.io/posts/getting-started-with-opengl/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pwegrzyn.github.io/posts/getting-started-with-opengl/</guid>
+      
+      <description>Picking up game development is pretty straightforward nowadays. You can just use one of the many beginner-friendly libraries/game-engines available in popular languages - for Python that would be for example PyGame, for Java - FXGL and for JS - GDevelop. Or, if you want to dive straight into more serious stuff, you could just go for Unity. However, soon you&amp;rsquo;ll notice that get more control over the graphics rendering pipeline (maybe you want to squeeze every bit of performance of your game or you just wish to implement a cool graphics effect) there&amp;rsquo;s currently still not better choice than picking good ol&amp;rsquo; C++ along with a low-level graphics library.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
