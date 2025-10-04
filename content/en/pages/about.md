@@ -17,7 +17,7 @@ Later, I worked as a backend engineer at Google, where I developed LLM inference
 
 ### CV
 
-My CV is available per request, but you can also check out my LinkedIn: [linkedin.com/in/patryk-wegrzyn/](https://www.linkedin.com/in/patryk-wegrzyn/)
+My CV is available on request, but you can also check out my LinkedIn: [linkedin.com/in/patryk-wegrzyn/](https://www.linkedin.com/in/patryk-wegrzyn/)
 
 ### Blog
 
