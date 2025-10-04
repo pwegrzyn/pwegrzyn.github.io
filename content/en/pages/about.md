@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2025-10-03"
+date: "2025-10-04"
 aliases: ["about","pwegrzyn","author","contact"]
 toc: false
 ---
