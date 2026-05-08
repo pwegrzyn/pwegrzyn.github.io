@@ -14,7 +14,7 @@
       
       <guid>https://pwegrzyn.github.io/posts/on-the-unreasonable-effectiveness-of-math/</guid>
       
-      <description>In his famous 1960 article Eugene Wigner argued about &amp;ldquo;the unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. The main point made here was the existence of a seemingly unexpected natural relationship between math and physics. Specifically, why does math lend itself so well to modelling of physical reality? Why are physical laws and processes even expressible as mathematical equations in the first place? Where does this correspondence between abstract platonic ideas and concrete physical observations originate from?</description>
+      <description>&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences&#34;&gt;his famous 1960 article&lt;/a&gt; Eugene Wigner argued about &amp;ldquo;the unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. The main point made here was the existence of a seemingly unexpected natural relationship between math and physics. Specifically, why does math lend itself so well to modelling of physical reality? Why are physical laws and processes even expressible as mathematical equations in the first place? Where does this correspondence between abstract platonic ideas and concrete physical observations originate from?&lt;/p&gt;</description>
       
     </item>
     
@@ -25,7 +25,7 @@
       
       <guid>https://pwegrzyn.github.io/posts/functional-vs-imperative-v2/</guid>
       
-      <description>Some time ago I wrote a post arguing why every developer should know both functional and imperative programming. My position on this matter hasn&amp;rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&amp;rsquo;s explore this further in this post.</description>
+      <description>&lt;p&gt;Some time ago I wrote a &lt;a href=&#34;https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/&#34;&gt;post&lt;/a&gt; arguing why every developer should know both functional and imperative programming. My position on this matter hasn&amp;rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&amp;rsquo;s explore this further in this post.&lt;/p&gt;</description>
       
     </item>
     
@@ -36,7 +36,8 @@
       
       <guid>https://pwegrzyn.github.io/posts/differential-geometry-is-everywhere/</guid>
       
-      <description>When I was in high school, I was really into physics. Later, even though I chose to purse a degree in Computer Science, my love for physics did not go away. Quite the opposite, my math classes at uni allowed me to finally go deeper into more advanced physics topics (till then I had really only read the first tomes of Feynman&amp;rsquo;s lecture textbooks, GR and QM was beyond my skills at that period).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pwegrzyn.github.io/images/geo.png&#34; alt=&#34;Mandatory quality meme from fb.com/geometryofmemes to properly start a post&#34;&gt;&lt;/p&gt;
+&lt;p&gt;When I was in high school, I was really into physics. Later, even though I chose to purse a degree in Computer Science, my love for physics did not go away. Quite the opposite, my math classes at uni allowed me to finally go deeper into more advanced physics topics (till then I had really only read the first tomes of Feynman&amp;rsquo;s lecture textbooks, GR and QM was beyond my skills at that period). In spare time, I watched &lt;a href=&#34;https://www.youtube.com/playlist?list=PL6i60qoDQhQGaGbbg-4aSwXJvxOqO6o5e&#34;&gt;Susskind&amp;rsquo;s lectures on YT&lt;/a&gt;, read more books, and things were in general going smoothly. And then came General Relativity and QFT - tensors, curvatures, gauge theory, etc. I noticed that my math skills again were lacking. I tried to learn differential goemetry on my own (shoutout to an awesome channel teaching this subject - &lt;a href=&#34;https://www.youtube.com/user/XylyXylyX&#34;&gt;XylyXylyX&lt;/a&gt;), but had to stop because other stuff was more imporant (BSc thesis, MSc exam, internship).&lt;/p&gt;</description>
       
     </item>
     
@@ -47,8 +48,25 @@
       
       <guid>https://pwegrzyn.github.io/posts/the-etc-principle/</guid>
       
-      <description>There&amp;rsquo;s quite a few popular software engineering principles (often remembered in the form of catchy acronyms):
-S.O.L.I.D. Single responsibility: A component should have a single reason to change. Open-closed: A component should be easily extendable without much need for modification. Liskov substitution: A derived class should be easily swappable with it&amp;rsquo;s base class. Interface segregation: Write concise interface definitions with a single purpose. Dependency inversion: High-level components should not depend on low-level components, low-level components should instead depend on interfaces defined by high-level components.</description>
+      <description>&lt;p&gt;There&amp;rsquo;s quite a few popular software engineering principles (often remembered in the form of catchy acronyms):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;S.O.L.I.D.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S&lt;/strong&gt;ingle responsibility: A component should have a single reason to change.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;O&lt;/strong&gt;pen-closed: A component should be easily extendable without much need for modification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt;iskov substitution: A derived class should be easily swappable with it&amp;rsquo;s base class.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;I&lt;/strong&gt;nterface segregation: Write concise interface definitions with a single purpose.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;D&lt;/strong&gt;ependency inversion: High-level components should not depend on low-level components, low-level components should instead depend on interfaces defined by high-level components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DRY - Don&amp;rsquo;t repeat yourself: A unit of knowlegde should have only one, precise, unambiguous definition in the system.&lt;/li&gt;
+&lt;li&gt;KISS - Keep it simple, stupid: Don&amp;rsquo;t try to be smart, just for the sake of it. Simple code is better code.&lt;/li&gt;
+&lt;li&gt;YAGNI - You ain&amp;rsquo;t gonna need it: Don&amp;rsquo;t try to add unnecesarily complex structures and patterns to your code just to make it maximally generic and abstract - you probably will get away with a simpler and more concrete solution.&lt;/li&gt;
+&lt;li&gt;TDA - Tell, don&amp;rsquo;t ask: A function should instruct objects to perform certain actions, instead of asking them for details and doing it itself.&lt;/li&gt;
+&lt;li&gt;SAP - Stable Abstractions Principle: The more abstract a component is, the more stable it should be, and vice versa.&lt;/li&gt;
+&lt;li&gt;LC/HC - Low coupling, high cohesion: Isolate logically seperate components from each other.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip; and many others. In fact, there&amp;rsquo;s so many of them, that an unexperienced programming adept could feel overwhelmed by the sheer number of rules her code should adhere to. Instead of being a help, it can actually hamper your productivity, since the subtle act of balancing these principles can be highly non-trivial in practical settings. For example, replication of logic clearly is bad, however extraction of common subcomponents can lead to increased coupling. Also, presumably you don&amp;rsquo;t want to write super-generic code with tons of abstractions, since that&amp;rsquo;ll make it harder to understand, but at the same time, you want it to be maximally extendable in the future. The process of creating high-quality software lies somewhere in a wide spectrum spanned by all these rules.&lt;/p&gt;</description>
       
     </item>
     
@@ -59,7 +77,7 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/mode-connectivity/</guid>
       
-      <description>The impact of deep learning on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software [1]. However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre.</description>
+      <description>&lt;p&gt;The impact of deep learning on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software &lt;a href=&#34;https://pwegrzyn.github.io/posts/mode-connectivity/#1&#34;&gt;[1]&lt;/a&gt;. However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. Below I present my key observations and useful resources on this matter.&lt;/p&gt;</description>
       
     </item>
     
@@ -70,7 +88,7 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/my-new-favourite-math-theorem/</guid>
       
-      <description>When someone&amp;rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&amp;rsquo;s a high probability that they will think of either Cantor&amp;rsquo;s diagonal argument, proving that some infinities are bigger than others, or Gödel&amp;rsquo;s incompleteness theorem, which shows that a formal system can contain statements that are not provable within the system, or Russell&amp;rsquo;s paradox, which suggests that some sets are actually not allowed to exist, or Turing&amp;rsquo;s halting problem, which in essence proves that not all problems have an algorithmic solution.</description>
+      <description>&lt;p&gt;When someone&amp;rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&amp;rsquo;s a high probability that they will think of either &lt;a href=&#34;https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument&#34;&gt;Cantor&amp;rsquo;s diagonal argument&lt;/a&gt;, proving that some infinities are bigger than others, or &lt;a href=&#34;https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems&#34;&gt;Gödel&amp;rsquo;s incompleteness theorem&lt;/a&gt;, which shows that a formal system can contain statements that are not provable within the system, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Russell%27s_paradox&#34;&gt;Russell&amp;rsquo;s paradox&lt;/a&gt;, which suggests that some sets are actually not allowed to exist, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Halting_problem&#34;&gt;Turing&amp;rsquo;s halting problem&lt;/a&gt;, which in essence proves that not all problems have an algorithmic solution. Indeed, these theorems directly or indirectly lead to the development of entirely new branches of mathematics and questioned our basic understanding of this field. Personally, I was always fascinated that such simple observations can tell us so much about the limitations and perplexities of logic. I was also intrigued that all these theorems are structurally very similar to each other when you think about it - each of them contains a self-reference that eventually leads to an unexpected conclusion. It almost feels like they&amp;rsquo;re special cases of some deeper truth underpinning the very foundations of mathematics.&lt;/p&gt;</description>
       
     </item>
     
@@ -81,7 +99,7 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/the-case-against-against-crypto/</guid>
       
-      <description>Over the recent months I&amp;rsquo;ve come across a lot of negative comments aimed at the entire Crypto space, blaming Bitcoin (and other projects) for seemingly all the evil that&amp;rsquo;s been present in the news: ransomware attacks rate increases, global warming, retail investor scams, etc. The general impression one could get after being presented with such allegations is that Blockchain is simply a useless waste of energy at best and dangerous criminal activity accelerator at worst.</description>
+      <description>&lt;p&gt;Over the recent months I&amp;rsquo;ve come across a lot of negative comments aimed at the entire Crypto space, blaming Bitcoin (and other projects) for seemingly all the evil that&amp;rsquo;s been present in the news: ransomware attacks rate increases, global warming, retail investor scams, etc. The general impression one could get after being presented with such allegations is that Blockchain is simply a useless waste of energy at best and dangerous criminal activity accelerator at worst. So, the action to take here is clear: we should just ban all Crypto projects (or practically regulate them out of existance by banning Crypto-to-Fiat exchanges), abandon research in this area and simply forgot about this &amp;ldquo;Internet money&amp;rdquo; stuff, right?&lt;/p&gt;</description>
       
     </item>
     
@@ -92,7 +110,11 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/thinking-mathematically-review/</guid>
       
-      <description>Recently, I&amp;rsquo;ve had the pleasure of reading &amp;ldquo;Thinking mathematically&amp;rdquo; by J. Mason, L. Burton and K. Stacey. The book has been recommended to me in a random Twitter conversation and since I haven&amp;rsquo;t really heard about it before (nor had I any familiarity with its authors) I decided to push in on top of my reading list out of sheer curiosity regarding its praising reviews. And oh boy, was I not disappointed!</description>
+      <description>&lt;p&gt;Recently, I&amp;rsquo;ve had the pleasure of reading &lt;a href=&#34;https://www.amazon.com/Thinking-Mathematically-2nd-J-Mason/dp/0273728911/ref=sr_1_2?dchild=1&amp;amp;keywords=thinking&amp;#43;mathematically&amp;amp;qid=1628519325&amp;amp;sr=8-2&#34;&gt;&amp;ldquo;Thinking mathematically&amp;rdquo;&lt;/a&gt; by J. Mason, L. Burton and K. Stacey. The book has been recommended to me in a random Twitter conversation and since I haven&amp;rsquo;t really heard about it before (nor had I any familiarity with its authors) I decided to push in on top of my reading list out of sheer curiosity regarding its
+praising reviews. And oh boy, was I not disappointed! In essence, this book is a recipe on how to start thinking like a mathematician when tackling problems. Through numerous examples, it teaches you how to approach a challanging problem, how to get into a
+right mindset, how to overcome (and enjoy!) the state of being STUCK, how to find the right example cases to get started, how to look for links between what is KNOWN and what is UNKNOWN, how to conjecture and evolve possible solutions and, finally,
+how to REFLECT on a problem after the dust has settled. Don&amp;rsquo;t expect, however, this to be an easy read - the only way to get the most of it, is to invest sufficient amount of time to apply all the described techniques on real problems listed in later chapters. I assure you, though, that the investment will be totally worth it. My only negative feeling after reading this book was that I haven&amp;rsquo;t read it earlier, preferably around high school, since this is usually the time we start to really
+think about our future careers and begin to dive deeper into math. I think young adepts will defintelly get the most of this book, but even if you&amp;rsquo;re years past your math education I&amp;rsquo;m sure you&amp;rsquo;ll still find this book extremely insightful (provided you don&amp;rsquo;t have a chronic aversion to math!), so, if you haven&amp;rsquo;t already, do yourself a favour and reserve a few weeks to get through this jewel.&lt;/p&gt;</description>
       
     </item>
     
@@ -103,7 +125,9 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/</guid>
       
-      <description>The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry. Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses. One is not inherently better than the other, each has characteristics making it better suited for some tasks and less optimal in others.</description>
+      <description>&lt;p&gt;The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry.
+Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses.
+One is not inherently better than the other, each has characteristics making it better suited for some tasks and less optimal in others.&lt;/p&gt;</description>
       
     </item>
     
@@ -114,7 +138,10 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/getting-started-with-opengl/</guid>
       
-      <description>Picking up game development is pretty straightforward nowadays. You can just use one of the many beginner-friendly libraries/game-engines available in popular languages - for Python that would be for example PyGame, for Java - FXGL and for JS - GDevelop. Or, if you want to dive straight into more serious stuff, you could just go for Unity. However, soon you&amp;rsquo;ll notice that get more control over the graphics rendering pipeline (maybe you want to squeeze every bit of performance of your game or you just wish to implement a cool graphics effect) there&amp;rsquo;s currently still not better choice than picking good ol&amp;rsquo; C++ along with a low-level graphics library.</description>
+      <description>&lt;p&gt;Picking up game development is pretty straightforward nowadays. You can just use one of the many beginner-friendly libraries/game-engines available in popular languages - for Python that would be
+for example &lt;a href=&#34;https://www.pygame.org/news&#34;&gt;PyGame&lt;/a&gt;, for Java - &lt;a href=&#34;https://github.com/AlmasB/FXGL&#34;&gt;FXGL&lt;/a&gt; and for JS - &lt;a href=&#34;https://gdevelop-app.com/&#34;&gt;GDevelop&lt;/a&gt;. Or, if you want to dive straight into
+more serious stuff, you could just go for &lt;a href=&#34;https://unity.com/&#34;&gt;Unity&lt;/a&gt;. However, soon you&amp;rsquo;ll notice that get more control over the graphics rendering pipeline (maybe you want to
+squeeze every bit of performance of your game or you just wish to implement a cool graphics effect) there&amp;rsquo;s currently still not better choice than picking good ol&amp;rsquo; C++ along with a low-level graphics library.&lt;/p&gt;</description>
       
     </item>
     
@@ -125,7 +152,10 @@ S.O.L.I.D. Single responsibility: A component should have a single reason to cha
       
       <guid>https://pwegrzyn.github.io/posts/migration-tips/</guid>
       
-      <description>In this post I&amp;rsquo;d like to share some tips in regard to migrating a fairly complex software system to a new version of the programming language in which it has been originally written in. Most of the advice will be based on and related to the migration from Python 2 to Python 3 as this is probably the most likely migration process you can encounter in your near-future software career and it also happens to be the process I have the most experience with.</description>
+      <description>&lt;p&gt;In this post I&amp;rsquo;d like to share some tips in regard to migrating a fairly complex software system to a new version
+of the programming language in which it has been originally written in. Most of the advice will be based on and related to the migration
+from Python 2 to Python 3 as this is probably the most likely migration process you can encounter in your near-future software career and it also happens to be
+the process I have the most experience with.&lt;/p&gt;</description>
       
     </item>
     

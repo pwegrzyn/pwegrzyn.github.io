@@ -107,3 +107,4 @@ url = "https://github.com/pwegrzyn"
 
 [params]
   toc = false
+  DisqusShortname = ""
