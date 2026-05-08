@@ -11,7 +11,6 @@
       <title>On the (Un)reasonable Effectiveness of Math in Physics</title>
       <link>https://pwegrzyn.github.io/posts/on-the-unreasonable-effectiveness-of-math/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pwegrzyn.github.io/posts/on-the-unreasonable-effectiveness-of-math/</guid>
       
       <description>&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences&#34;&gt;his famous 1960 article&lt;/a&gt; Eugene Wigner argued about &amp;ldquo;the unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. The main point made here was the existence of a seemingly unexpected natural relationship between math and physics. Specifically, why does math lend itself so well to modelling of physical reality? Why are physical laws and processes even expressible as mathematical equations in the first place? Where does this correspondence between abstract platonic ideas and concrete physical observations originate from?&lt;/p&gt;</description>
@@ -22,7 +21,6 @@
       <title>How I Learned to Stop Worrying and Love the Manifold</title>
       <link>https://pwegrzyn.github.io/posts/differential-geometry-is-everywhere/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://pwegrzyn.github.io/posts/differential-geometry-is-everywhere/</guid>
       
       <description>&lt;p&gt;&lt;img src=&#34;https://pwegrzyn.github.io/images/geo.png&#34; alt=&#34;Mandatory quality meme from fb.com/geometryofmemes to properly start a post&#34;&gt;&lt;/p&gt;
@@ -34,7 +32,6 @@
       <title>My New Favourite Math Abstraction - Lawvere&#39;s Fixed Point Theorem</title>
       <link>https://pwegrzyn.github.io/posts/my-new-favourite-math-theorem/</link>
       <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://pwegrzyn.github.io/posts/my-new-favourite-math-theorem/</guid>
       
       <description>&lt;p&gt;When someone&amp;rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&amp;rsquo;s a high probability that they will think of either &lt;a href=&#34;https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument&#34;&gt;Cantor&amp;rsquo;s diagonal argument&lt;/a&gt;, proving that some infinities are bigger than others, or &lt;a href=&#34;https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems&#34;&gt;Gödel&amp;rsquo;s incompleteness theorem&lt;/a&gt;, which shows that a formal system can contain statements that are not provable within the system, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Russell%27s_paradox&#34;&gt;Russell&amp;rsquo;s paradox&lt;/a&gt;, which suggests that some sets are actually not allowed to exist, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Halting_problem&#34;&gt;Turing&amp;rsquo;s halting problem&lt;/a&gt;, which in essence proves that not all problems have an algorithmic solution. Indeed, these theorems directly or indirectly lead to the development of entirely new branches of mathematics and questioned our basic understanding of this field. Personally, I was always fascinated that such simple observations can tell us so much about the limitations and perplexities of logic. I was also intrigued that all these theorems are structurally very similar to each other when you think about it - each of them contains a self-reference that eventually leads to an unexpected conclusion. It almost feels like they&amp;rsquo;re special cases of some deeper truth underpinning the very foundations of mathematics.&lt;/p&gt;</description>
@@ -45,7 +42,6 @@
       <title>The Single Most Valuable Math Book You Probably Haven&#39;t Heard About</title>
       <link>https://pwegrzyn.github.io/posts/thinking-mathematically-review/</link>
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://pwegrzyn.github.io/posts/thinking-mathematically-review/</guid>
       
       <description>&lt;p&gt;Recently, I&amp;rsquo;ve had the pleasure of reading &lt;a href=&#34;https://www.amazon.com/Thinking-Mathematically-2nd-J-Mason/dp/0273728911/ref=sr_1_2?dchild=1&amp;amp;keywords=thinking&amp;#43;mathematically&amp;amp;qid=1628519325&amp;amp;sr=8-2&#34;&gt;&amp;ldquo;Thinking mathematically&amp;rdquo;&lt;/a&gt; by J. Mason, L. Burton and K. Stacey. The book has been recommended to me in a random Twitter conversation and since I haven&amp;rsquo;t really heard about it before (nor had I any familiarity with its authors) I decided to push in on top of my reading list out of sheer curiosity regarding its
