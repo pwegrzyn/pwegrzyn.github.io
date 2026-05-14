@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patryk Wegrzyn</title>
-    <link>https://pwegrzyn.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Patryk Wegrzyn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://pwegrzyn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-GB</language>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On the (Un)reasonable Effectiveness of Math in Physics</title>
-      <link>https://pwegrzyn.github.io/posts/on-the-unreasonable-effectiveness-of-math/</link>
+      <link>http://localhost:1313/posts/on-the-unreasonable-effectiveness-of-math/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/on-the-unreasonable-effectiveness-of-math/</guid>
+      <guid>http://localhost:1313/posts/on-the-unreasonable-effectiveness-of-math/</guid>
       
       <description>&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences&#34;&gt;his famous 1960 article&lt;/a&gt; Eugene Wigner argued about &amp;ldquo;the unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. The main point made here was the existence of a seemingly unexpected natural relationship between math and physics. Specifically, why does math lend itself so well to modelling of physical reality? Why are physical laws and processes even expressible as mathematical equations in the first place? Where does this correspondence between abstract platonic ideas and concrete physical observations originate from?&lt;/p&gt;</description>
       
@@ -19,30 +19,30 @@
     
     <item>
       <title>Why Functional Programming is (Still) Relatively Unpopular?</title>
-      <link>https://pwegrzyn.github.io/posts/functional-vs-imperative-v2/</link>
+      <link>http://localhost:1313/posts/functional-vs-imperative-v2/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/functional-vs-imperative-v2/</guid>
+      <guid>http://localhost:1313/posts/functional-vs-imperative-v2/</guid>
       
-      <description>&lt;p&gt;Some time ago I wrote a &lt;a href=&#34;https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/&#34;&gt;post&lt;/a&gt; arguing why every developer should know both functional and imperative programming. My position on this matter hasn&amp;rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&amp;rsquo;s explore this further in this post.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Some time ago I wrote a &lt;a href=&#34;http://localhost:1313/posts/why-learn-functional-and-imperative/&#34;&gt;post&lt;/a&gt; arguing why every developer should know both functional and imperative programming. My position on this matter hasn&amp;rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&amp;rsquo;s explore this further in this post.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>How I Learned to Stop Worrying and Love the Manifold</title>
-      <link>https://pwegrzyn.github.io/posts/differential-geometry-is-everywhere/</link>
+      <link>http://localhost:1313/posts/differential-geometry-is-everywhere/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/differential-geometry-is-everywhere/</guid>
+      <guid>http://localhost:1313/posts/differential-geometry-is-everywhere/</guid>
       
-      <description>&lt;p&gt;&lt;img src=&#34;https://pwegrzyn.github.io/images/geo.png&#34; alt=&#34;Mandatory quality meme from fb.com/geometryofmemes to properly start a post&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/geo.png&#34; alt=&#34;Mandatory quality meme from fb.com/geometryofmemes to properly start a post&#34;&gt;&lt;/p&gt;
 &lt;p&gt;When I was in high school, I was really into physics. Later, even though I chose to purse a degree in Computer Science, my love for physics did not go away. Quite the opposite, my math classes at uni allowed me to finally go deeper into more advanced physics topics (till then I had really only read the first tomes of Feynman&amp;rsquo;s lecture textbooks, GR and QM was beyond my skills at that period). In spare time, I watched &lt;a href=&#34;https://www.youtube.com/playlist?list=PL6i60qoDQhQGaGbbg-4aSwXJvxOqO6o5e&#34;&gt;Susskind&amp;rsquo;s lectures on YT&lt;/a&gt;, read more books, and things were in general going smoothly. And then came General Relativity and QFT - tensors, curvatures, gauge theory, etc. I noticed that my math skills again were lacking. I tried to learn differential goemetry on my own (shoutout to an awesome channel teaching this subject - &lt;a href=&#34;https://www.youtube.com/user/XylyXylyX&#34;&gt;XylyXylyX&lt;/a&gt;), but had to stop because other stuff was more imporant (BSc thesis, MSc exam, internship).&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>The ETC Principle</title>
-      <link>https://pwegrzyn.github.io/posts/the-etc-principle/</link>
+      <link>http://localhost:1313/posts/the-etc-principle/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/the-etc-principle/</guid>
+      <guid>http://localhost:1313/posts/the-etc-principle/</guid>
       
       <description>&lt;p&gt;There&amp;rsquo;s quite a few popular software engineering principles (often remembered in the form of catchy acronyms):&lt;/p&gt;
 &lt;ul&gt;
@@ -68,19 +68,19 @@
     
     <item>
       <title>Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets</title>
-      <link>https://pwegrzyn.github.io/posts/mode-connectivity/</link>
+      <link>http://localhost:1313/posts/mode-connectivity/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/mode-connectivity/</guid>
+      <guid>http://localhost:1313/posts/mode-connectivity/</guid>
       
-      <description>&lt;p&gt;The impact of deep learning on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software &lt;a href=&#34;https://pwegrzyn.github.io/posts/mode-connectivity/#1&#34;&gt;[1]&lt;/a&gt;. However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. Below I present my key observations and useful resources on this matter.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The impact of deep learning on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software &lt;a href=&#34;http://localhost:1313/posts/mode-connectivity/#1&#34;&gt;[1]&lt;/a&gt;. However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. Below I present my key observations and useful resources on this matter.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>My New Favourite Math Abstraction - Lawvere&#39;s Fixed Point Theorem</title>
-      <link>https://pwegrzyn.github.io/posts/my-new-favourite-math-theorem/</link>
+      <link>http://localhost:1313/posts/my-new-favourite-math-theorem/</link>
       <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/my-new-favourite-math-theorem/</guid>
+      <guid>http://localhost:1313/posts/my-new-favourite-math-theorem/</guid>
       
       <description>&lt;p&gt;When someone&amp;rsquo;s asked to think about the most famous and revolutionary math ideas in recent centuries, there&amp;rsquo;s a high probability that they will think of either &lt;a href=&#34;https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument&#34;&gt;Cantor&amp;rsquo;s diagonal argument&lt;/a&gt;, proving that some infinities are bigger than others, or &lt;a href=&#34;https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems&#34;&gt;Gödel&amp;rsquo;s incompleteness theorem&lt;/a&gt;, which shows that a formal system can contain statements that are not provable within the system, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Russell%27s_paradox&#34;&gt;Russell&amp;rsquo;s paradox&lt;/a&gt;, which suggests that some sets are actually not allowed to exist, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Halting_problem&#34;&gt;Turing&amp;rsquo;s halting problem&lt;/a&gt;, which in essence proves that not all problems have an algorithmic solution. Indeed, these theorems directly or indirectly lead to the development of entirely new branches of mathematics and questioned our basic understanding of this field. Personally, I was always fascinated that such simple observations can tell us so much about the limitations and perplexities of logic. I was also intrigued that all these theorems are structurally very similar to each other when you think about it - each of them contains a self-reference that eventually leads to an unexpected conclusion. It almost feels like they&amp;rsquo;re special cases of some deeper truth underpinning the very foundations of mathematics.&lt;/p&gt;</description>
       
@@ -88,9 +88,9 @@
     
     <item>
       <title>The Case Against &#34;Against Crypto&#34;</title>
-      <link>https://pwegrzyn.github.io/posts/the-case-against-against-crypto/</link>
+      <link>http://localhost:1313/posts/the-case-against-against-crypto/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/the-case-against-against-crypto/</guid>
+      <guid>http://localhost:1313/posts/the-case-against-against-crypto/</guid>
       
       <description>&lt;p&gt;Over the recent months I&amp;rsquo;ve come across a lot of negative comments aimed at the entire Crypto space, blaming Bitcoin (and other projects) for seemingly all the evil that&amp;rsquo;s been present in the news: ransomware attacks rate increases, global warming, retail investor scams, etc. The general impression one could get after being presented with such allegations is that Blockchain is simply a useless waste of energy at best and dangerous criminal activity accelerator at worst. So, the action to take here is clear: we should just ban all Crypto projects (or practically regulate them out of existance by banning Crypto-to-Fiat exchanges), abandon research in this area and simply forgot about this &amp;ldquo;Internet money&amp;rdquo; stuff, right?&lt;/p&gt;</description>
       
@@ -98,9 +98,9 @@
     
     <item>
       <title>The Single Most Valuable Math Book You Probably Haven&#39;t Heard About</title>
-      <link>https://pwegrzyn.github.io/posts/thinking-mathematically-review/</link>
+      <link>http://localhost:1313/posts/thinking-mathematically-review/</link>
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/thinking-mathematically-review/</guid>
+      <guid>http://localhost:1313/posts/thinking-mathematically-review/</guid>
       
       <description>&lt;p&gt;Recently, I&amp;rsquo;ve had the pleasure of reading &lt;a href=&#34;https://www.amazon.com/Thinking-Mathematically-2nd-J-Mason/dp/0273728911/ref=sr_1_2?dchild=1&amp;amp;keywords=thinking&amp;#43;mathematically&amp;amp;qid=1628519325&amp;amp;sr=8-2&#34;&gt;&amp;ldquo;Thinking mathematically&amp;rdquo;&lt;/a&gt; by J. Mason, L. Burton and K. Stacey. The book has been recommended to me in a random Twitter conversation and since I haven&amp;rsquo;t really heard about it before (nor had I any familiarity with its authors) I decided to push in on top of my reading list out of sheer curiosity regarding its
 praising reviews. And oh boy, was I not disappointed! In essence, this book is a recipe on how to start thinking like a mathematician when tackling problems. Through numerous examples, it teaches you how to approach a challanging problem, how to get into a
@@ -112,9 +112,9 @@ think about our future careers and begin to dive deeper into math. I think young
     
     <item>
       <title>Why Every Developer Should Know Both Structural and Functional Programming</title>
-      <link>https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/</link>
+      <link>http://localhost:1313/posts/why-learn-functional-and-imperative/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/</guid>
+      <guid>http://localhost:1313/posts/why-learn-functional-and-imperative/</guid>
       
       <description>&lt;p&gt;The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry.
 Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses.
@@ -124,9 +124,9 @@ One is not inherently better than the other, each has characteristics making it 
     
     <item>
       <title>Getting Started with OpenGL in 2020</title>
-      <link>https://pwegrzyn.github.io/posts/getting-started-with-opengl/</link>
+      <link>http://localhost:1313/posts/getting-started-with-opengl/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/getting-started-with-opengl/</guid>
+      <guid>http://localhost:1313/posts/getting-started-with-opengl/</guid>
       
       <description>&lt;p&gt;Picking up game development is pretty straightforward nowadays. You can just use one of the many beginner-friendly libraries/game-engines available in popular languages - for Python that would be
 for example &lt;a href=&#34;https://www.pygame.org/news&#34;&gt;PyGame&lt;/a&gt;, for Java - &lt;a href=&#34;https://github.com/AlmasB/FXGL&#34;&gt;FXGL&lt;/a&gt; and for JS - &lt;a href=&#34;https://gdevelop-app.com/&#34;&gt;GDevelop&lt;/a&gt;. Or, if you want to dive straight into
@@ -137,9 +137,9 @@ squeeze every bit of performance of your game or you just wish to implement a co
     
     <item>
       <title>Software Migration Tips (Python 3 Edition)</title>
-      <link>https://pwegrzyn.github.io/posts/migration-tips/</link>
+      <link>http://localhost:1313/posts/migration-tips/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/migration-tips/</guid>
+      <guid>http://localhost:1313/posts/migration-tips/</guid>
       
       <description>&lt;p&gt;In this post I&amp;rsquo;d like to share some tips in regard to migrating a fairly complex software system to a new version
 of the programming language in which it has been originally written in. Most of the advice will be based on and related to the migration
@@ -150,9 +150,9 @@ the process I have the most experience with.&lt;/p&gt;</description>
     
     <item>
       <title>About</title>
-      <link>https://pwegrzyn.github.io/pages/about/</link>
+      <link>http://localhost:1313/pages/about/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/pages/about/</guid>
+      <guid>http://localhost:1313/pages/about/</guid>
       
       <description>&lt;h5&gt;&lt;/h5&gt;
 &lt;p&gt;Hi, I&amp;rsquo;m Patryk, a software engineer from Poland.&lt;/p&gt;

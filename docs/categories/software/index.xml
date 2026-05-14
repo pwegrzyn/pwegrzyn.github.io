@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Patryk Wegrzyn</title>
-    <link>https://pwegrzyn.github.io/categories/software/</link>
+    <link>http://localhost:1313/categories/software/</link>
     <description>Recent content in Software on Patryk Wegrzyn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pwegrzyn.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Functional Programming is (Still) Relatively Unpopular?</title>
-      <link>https://pwegrzyn.github.io/posts/functional-vs-imperative-v2/</link>
+      <link>http://localhost:1313/posts/functional-vs-imperative-v2/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/functional-vs-imperative-v2/</guid>
+      <guid>http://localhost:1313/posts/functional-vs-imperative-v2/</guid>
       
-      <description>&lt;p&gt;Some time ago I wrote a &lt;a href=&#34;https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/&#34;&gt;post&lt;/a&gt; arguing why every developer should know both functional and imperative programming. My position on this matter hasn&amp;rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&amp;rsquo;s explore this further in this post.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Some time ago I wrote a &lt;a href=&#34;http://localhost:1313/posts/why-learn-functional-and-imperative/&#34;&gt;post&lt;/a&gt; arguing why every developer should know both functional and imperative programming. My position on this matter hasn&amp;rsquo;t fundamentally changed since then, but I do have spend some more time thinking about it. If both approaches are equally valid and, according to some, FP even has more advantages, why is it that there are still way less functional programmers? Let&amp;rsquo;s explore this further in this post.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>The ETC Principle</title>
-      <link>https://pwegrzyn.github.io/posts/the-etc-principle/</link>
+      <link>http://localhost:1313/posts/the-etc-principle/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/the-etc-principle/</guid>
+      <guid>http://localhost:1313/posts/the-etc-principle/</guid>
       
       <description>&lt;p&gt;There&amp;rsquo;s quite a few popular software engineering principles (often remembered in the form of catchy acronyms):&lt;/p&gt;
 &lt;ul&gt;
@@ -47,19 +47,19 @@
     
     <item>
       <title>Loss Landscapes, Mode Connectivity and Generalization in Deep Neural Nets</title>
-      <link>https://pwegrzyn.github.io/posts/mode-connectivity/</link>
+      <link>http://localhost:1313/posts/mode-connectivity/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/mode-connectivity/</guid>
+      <guid>http://localhost:1313/posts/mode-connectivity/</guid>
       
-      <description>&lt;p&gt;The impact of deep learning on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software &lt;a href=&#34;https://pwegrzyn.github.io/posts/mode-connectivity/#1&#34;&gt;[1]&lt;/a&gt;. However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. Below I present my key observations and useful resources on this matter.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The impact of deep learning on the fields of computer science, artificial intelligence and many others cannot be understated. Some even go as far as to say that this type of automated reasoning based on data and not on explicit rules will spark a new era of software &lt;a href=&#34;http://localhost:1313/posts/mode-connectivity/#1&#34;&gt;[1]&lt;/a&gt;. However, despite the tremendous success of deep neural nets, their remarkablew effectivness and good generalization capabilites are not yet fully understood. Over the last couple of months I decided to dig a bit deeper into the fundamental aspects of deep learning such as network architecture, depth, width, optimizer method, loss surface and others, to try to develop an intuition on what makes some models great and others mediocre. Below I present my key observations and useful resources on this matter.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Why Every Developer Should Know Both Structural and Functional Programming</title>
-      <link>https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/</link>
+      <link>http://localhost:1313/posts/why-learn-functional-and-imperative/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/why-learn-functional-and-imperative/</guid>
+      <guid>http://localhost:1313/posts/why-learn-functional-and-imperative/</guid>
       
       <description>&lt;p&gt;The apparent feud between functional and imperative (OOP/structural) programmers have been with us since the very inception of this industry.
 Usually, developers tend to identify as either a strong believer of one or the other. In my opinion, a competent programmer should be familiar with both and know when to use one over the other, based on their strenghts and weaknesses.
@@ -69,9 +69,9 @@ One is not inherently better than the other, each has characteristics making it 
     
     <item>
       <title>Software Migration Tips (Python 3 Edition)</title>
-      <link>https://pwegrzyn.github.io/posts/migration-tips/</link>
+      <link>http://localhost:1313/posts/migration-tips/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/posts/migration-tips/</guid>
+      <guid>http://localhost:1313/posts/migration-tips/</guid>
       
       <description>&lt;p&gt;In this post I&amp;rsquo;d like to share some tips in regard to migrating a fairly complex software system to a new version
 of the programming language in which it has been originally written in. Most of the advice will be based on and related to the migration

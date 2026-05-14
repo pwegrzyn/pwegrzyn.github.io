@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Patryk Wegrzyn</title>
-    <link>https://pwegrzyn.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Patryk Wegrzyn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pwegrzyn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math</title>
-      <link>https://pwegrzyn.github.io/categories/math/</link>
+      <link>http://localhost:1313/categories/math/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/math/</guid>
+      <guid>http://localhost:1313/categories/math/</guid>
       
       <description></description>
       
@@ -19,9 +19,9 @@
     
     <item>
       <title>Software</title>
-      <link>https://pwegrzyn.github.io/categories/software/</link>
+      <link>http://localhost:1313/categories/software/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/software/</guid>
+      <guid>http://localhost:1313/categories/software/</guid>
       
       <description></description>
       
@@ -29,9 +29,9 @@
     
     <item>
       <title>Ml</title>
-      <link>https://pwegrzyn.github.io/categories/ml/</link>
+      <link>http://localhost:1313/categories/ml/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/ml/</guid>
+      <guid>http://localhost:1313/categories/ml/</guid>
       
       <description></description>
       
@@ -39,9 +39,9 @@
     
     <item>
       <title>Crypto</title>
-      <link>https://pwegrzyn.github.io/categories/crypto/</link>
+      <link>http://localhost:1313/categories/crypto/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/crypto/</guid>
+      <guid>http://localhost:1313/categories/crypto/</guid>
       
       <description></description>
       
@@ -49,9 +49,9 @@
     
     <item>
       <title>Cpp</title>
-      <link>https://pwegrzyn.github.io/categories/cpp/</link>
+      <link>http://localhost:1313/categories/cpp/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/cpp/</guid>
+      <guid>http://localhost:1313/categories/cpp/</guid>
       
       <description></description>
       
@@ -59,9 +59,9 @@
     
     <item>
       <title>Graphics</title>
-      <link>https://pwegrzyn.github.io/categories/graphics/</link>
+      <link>http://localhost:1313/categories/graphics/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/graphics/</guid>
+      <guid>http://localhost:1313/categories/graphics/</guid>
       
       <description></description>
       
@@ -69,9 +69,9 @@
     
     <item>
       <title>Opengl</title>
-      <link>https://pwegrzyn.github.io/categories/opengl/</link>
+      <link>http://localhost:1313/categories/opengl/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/opengl/</guid>
+      <guid>http://localhost:1313/categories/opengl/</guid>
       
       <description></description>
       
@@ -79,9 +79,9 @@
     
     <item>
       <title>Python</title>
-      <link>https://pwegrzyn.github.io/categories/python/</link>
+      <link>http://localhost:1313/categories/python/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://pwegrzyn.github.io/categories/python/</guid>
+      <guid>http://localhost:1313/categories/python/</guid>
       
       <description></description>
       
